@@ -11,7 +11,13 @@
  <!-- This script runs on startup allowing to hide all objects -->
  <script>
  	$( document ).ready(function() {
-    $( "#secondBlock" ).hide();
+    $( "#secondBlockElement1" ).hide();
+    $( "#secondBlockElement2" ).hide();
+    $( "#secondBlockElement3" ).hide();
+    $( "#secondBlockElement4" ).hide();
+
+    
+
   });
   
  
@@ -24,15 +30,36 @@
 			width: 400px;
 		}
 		.first{
-			/*width: 50px;
-			float: left;*/
+			width: 50px;
+			float: left;
 		}
 		.second{
-			/*width: 50px;
-			float: right;*/
+			width: 50px;
+			float: right;
 			position: absolute;
-			left: 100px;
+			left: 150px;
 
+		}
+		.third{
+			width: 50px;
+			float: right;
+			position: absolute;
+			left: 150px;
+			top: 230px;
+		}
+		.fourth{
+			width: 50px;
+			float: right;
+			position: absolute;
+			left: 150px;
+			top: 380px;
+		}
+		.fifth{
+			width: 50px;
+			float: right;
+			position: absolute;
+			left: 150px;
+			top: 530px;
 		}
 		
  </style>
@@ -64,9 +91,25 @@
 	s<br />
  </div>
  
- <div class="second" id="secondBlock" > 
+ <div class="second" id="secondBlockElement1" > 
 	Product Development and <br />
 	introcuction process
+	</div>
+ 
+  <div class="third" id="secondBlockElement2" > 
+	Hello <br />
+	Hello
+	</div>
+	
+	<div class="fourth" id="secondBlockElement3" > 
+	fourth <br />
+	Hello
+	</div>
+ 
+ 
+ 	<div class="fifth" id="secondBlockElement4" > 
+	fifth <br />
+	Hello
 	</div>
  
  
@@ -81,7 +124,7 @@
 	<script> 
 	// makes possible the dependant movement
 $("#medicalDevices").click(function () {
-	$("#secondBlock").hide();
+	$("#secondBlockElement1").hide();
 	    $("#medicalDevicesBlock").animate({
         width: "70%",
         opacity: 60,
@@ -89,8 +132,35 @@ $("#medicalDevices").click(function () {
         fontSize: "2em",
         borderWidth: "10px"
     }, 1500, function () {
-    	$("#secondBlock").show();
-        $("#secondBlock").animate({
+    	$("#secondBlockElement1").show();
+        $("#secondBlockElement1").animate({
+        width: "70%",
+        opacity: 60,
+        marginLeft: "3.6in",
+        fontSize: "1em",
+        borderWidth: "10px"
+        }, 1500);
+        
+        $("#secondBlockElement2").show();
+        $("#secondBlockElement2").animate({
+        width: "70%",
+        opacity: 60,
+        marginLeft: "3.6in",
+        fontSize: "1em",
+        borderWidth: "10px"
+        }, 1500);
+        
+        $("#secondBlockElement3").show();
+        $("#secondBlockElement3").animate({
+        width: "70%",
+        opacity: 60,
+        marginLeft: "3.6in",
+        fontSize: "1em",
+        borderWidth: "10px"
+        }, 1500);
+        
+        $("#secondBlockElement4").show();
+        $("#secondBlockElement4").animate({
         width: "70%",
         opacity: 60,
         marginLeft: "3.6in",
