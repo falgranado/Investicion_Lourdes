@@ -3,22 +3,37 @@
 <head>
   <meta charset="utf-8">
   <title>ResearchAnimation</title>
-  <style>
-  #medicalDevicesBlock{
-    width: 20px;
-  }
-  
-  #secondBlock{
-    width: 190px;
-  }
-  </style>
+
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
  
  
+ <!-- Split two divs in two columns --> 
+ <style type="text/css">
+ 	/*#Container{
+			width: 400px;
+		}
+		.first{
+			width: 50px;
+			float: left;
+		}
+		.second{
+			width: 50px;
+			float: right;
+		}*/
+ </style>
+ <!-- End Split --> 
+ 
+ 
+ 
+ 
 <button id="medicalDevices">&raquo; Expand</button>
-<div id="medicalDevicesBlock">
+
+<!-- Container div holding two divs -->
+<div id="Container">
+	
+	<div class="first" id="medicalDevicesBlock">
 	M<br />
 	e<br />
 	d<br />
@@ -36,16 +51,22 @@
 	s<br />
  </div>
  
- <div id="secondBlock" > 
+ <div class="second" id="secondBlock" > 
 	Product Development and <br />
 	introcuction process
 	</div>
  
+ 
+</div>
+<!-- End Container --> 
 
+
+	
 	
 	
 	<!-- /////////////////////////////// Scripts ///////////////////////////////////////////// -->
 	<script> 
+	// makes possible the dependant movement
 $("#medicalDevices").click(function () {
     $("#medicalDevicesBlock").animate({
         width: "70%",
@@ -64,6 +85,8 @@ $("#medicalDevices").click(function () {
     });
 });
 </script>
+	<!-- /////////////////////////////// End Scripts ///////////////////////////////////////////// -->
+
 
 
  
