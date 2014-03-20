@@ -8,20 +8,33 @@
 </head>
 <body>
  
+ <!-- This script runs on startup allowing to hide all objects -->
+ <script>
+ 	$( document ).ready(function() {
+    $( "#secondBlock" ).hide();
+  });
+  
+ 
+ </script>
+ 
  
  <!-- Split two divs in two columns --> 
  <style type="text/css">
- 	/*#Container{
+ 	#Container{
 			width: 400px;
 		}
 		.first{
-			width: 50px;
-			float: left;
+			/*width: 50px;
+			float: left;*/
 		}
 		.second{
-			width: 50px;
-			float: right;
-		}*/
+			/*width: 50px;
+			float: right;*/
+			position: absolute;
+			left: 100px;
+
+		}
+		
  </style>
  <!-- End Split --> 
  
@@ -68,13 +81,15 @@
 	<script> 
 	// makes possible the dependant movement
 $("#medicalDevices").click(function () {
-    $("#medicalDevicesBlock").animate({
+	$("#secondBlock").hide();
+	    $("#medicalDevicesBlock").animate({
         width: "70%",
         opacity: 60,
         marginLeft: "0.6in",
         fontSize: "2em",
         borderWidth: "10px"
     }, 1500, function () {
+    	$("#secondBlock").show();
         $("#secondBlock").animate({
         width: "70%",
         opacity: 60,
