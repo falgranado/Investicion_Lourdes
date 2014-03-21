@@ -121,7 +121,7 @@
  
  
  
-<button id="medicalDevices">&raquo; Expand</button>
+<button id="medicalDevices" style="height:300px; width:30px; background: transparent; border: none; font-size: 0; position: absolute" >&raquo; Expand</button>
 
 <!-- Container div holding four divs -->
 <div id="Container">
@@ -189,7 +189,7 @@ $("#medicalDevices").click(function () {
         borderWidth: "10px"
     }, 1500, function () {
 
-    $('.hrzt-bar').delay(1000).animate({'width':'180px'},1000);
+    $('.hrzt-bar').delay(1000).animate({'width':'180px', 'marginTop': '-20px'},1000);
     $('.hrzt-bar2').delay(2000).animate({'width':'180px', 'marginTop': '185px'},1000);
     $('.hrzt-bar3').delay(2500).animate({'width':'180px', 'marginTop': '340px'},1000);
     $('.hrzt-bar4').delay(2800).animate({'width':'180px', 'marginTop': '490px'},1000);
