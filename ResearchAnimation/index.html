@@ -5,8 +5,26 @@
   <title>ResearchAnimation</title>
 
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  
 </head>
 <body>
+	
+	
+	<!-- /////////////////////////////////////////// -->
+		<div class="hrzt-bar">
+    
+</div>
+	<div class="hrzt-bar2">
+    
+</div>
+<div class="hrzt-bar3">
+    
+</div>
+<div class="hrzt-bar4">
+    
+</div>
+<!-- ///////////////////////////////////////////////// -->
+
  
  <!-- This script runs on startup allowing to hide all objects -->
  <script>
@@ -19,8 +37,6 @@
     
 
   });
-  
- 
  </script>
  
  
@@ -32,18 +48,24 @@
 		.first{
 			width: 50px;
 			float: left;
+
+			color: green;
 		}
 		.second{
 			width: 50px;
 			float: right;
 			position: absolute;
+			border-style: groove;
 			left: 150px;
+			color: red;
 
 		}
 		.third{
 			width: 50px;
 			float: right;
 			position: absolute;
+			border-style: groove;
+			color: red;
 			left: 150px;
 			top: 230px;
 		}
@@ -53,14 +75,53 @@
 			position: absolute;
 			left: 150px;
 			top: 380px;
+			border-style: groove;
+			color: red;
 		}
 		.fifth{
 			width: 50px;
 			float: right;
 			position: absolute;
+			color: red;
 			left: 150px;
+			border-style: groove;
 			top: 530px;
 		}
+		.hrzt-bar {
+    		width:0px;
+    		height:1px;
+    		background:#00b9d3;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		.hrzt-bar2 {
+    		width:0px;
+    		height:1px;
+    		background:#00b9d3;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		.hrzt-bar3 {
+    		width:0px;
+    		height:1px;
+    		background:#00b9d3;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		.hrzt-bar4 {
+    		width:0px;
+    		height:1px;
+    		background:#00b9d3;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		
+		
+		
 		
  </style>
  <!-- End Split --> 
@@ -70,7 +131,7 @@
  
 <button id="medicalDevices">&raquo; Expand</button>
 
-<!-- Container div holding two divs -->
+<!-- Container div holding four divs -->
 <div id="Container">
 	
 	<div class="first" id="medicalDevicesBlock">
@@ -91,10 +152,12 @@
 	s<br />
  </div>
  
+ 
  <div class="second" id="secondBlockElement1" > 
 	Product Development and <br />
 	introcuction process
 	</div>
+ 
  
   <div class="third" id="secondBlockElement2" > 
 	FDA <br />
@@ -110,7 +173,8 @@
 	USPTO <br />
 	
 	</div>
- 
+	
+	
  
 </div>
 <!-- End Container --> 
@@ -123,17 +187,45 @@
 	<script> 
 	// makes possible the dependant movement
 $("#medicalDevices").click(function () {
+	
 	$("#secondBlockElement1").hide();
 	    $("#medicalDevicesBlock").animate({
-        width: "70%",
+        width: "200%",
         opacity: 60,
         marginLeft: "0.6in",
         fontSize: "2em",
         borderWidth: "10px"
     }, 1500, function () {
+    	
+    	
+    	 
+    	 
+    	 // $('.arrow-up').animate({
+        // 'top': '40px'
+    // }, 1000, function () {
+        // $(this).addClass('arrow').removeClass('arrow-up');
+         // $('.arrow').animate({
+             // 'left': '240px'
+//             
+         // }, 1000);
+     // });
+    
+    $('.hrzt-bar').delay(1000).animate({'width':'180px'},1000);
+    $('.hrzt-bar2').delay(2000).animate({'width':'180px', 'marginTop': '185px'},1000);
+    $('.hrzt-bar3').delay(2500).animate({'width':'180px', 'marginTop': '340px'},1000);
+    $('.hrzt-bar4').delay(2800).animate({'width':'180px', 'marginTop': '490px'},1000);
+
+
+    $('.arrow').delay(1000).animate({'left': '240px'}, 1000);
+    
+
+    
+    
+    
     	$("#secondBlockElement1").show();
+
         $("#secondBlockElement1").animate({
-        width: "70%",
+        width: "160",
         opacity: 60,
         marginLeft: "1.6in",
         fontSize: "1em",
@@ -142,7 +234,7 @@ $("#medicalDevices").click(function () {
         
         $("#secondBlockElement2").show();
         $("#secondBlockElement2").animate({
-        width: "70%",
+        width: "33",
         opacity: 60,
         marginLeft: "1.6in",
         fontSize: "1em",
@@ -151,7 +243,7 @@ $("#medicalDevices").click(function () {
         
         $("#secondBlockElement3").show();
         $("#secondBlockElement3").animate({
-        width: "70%",
+        width: "60",
         opacity: 60,
         marginLeft: "1.6in",
         fontSize: "1em",
@@ -160,7 +252,7 @@ $("#medicalDevices").click(function () {
         
         $("#secondBlockElement4").show();
         $("#secondBlockElement4").animate({
-        width: "70%",
+        width: "50",
         opacity: 60,
         marginLeft: "1.6in",
         fontSize: "1em",
@@ -169,6 +261,24 @@ $("#medicalDevices").click(function () {
     });
 });
 </script>
+<!-- 
+<canvas id="myCanvas" width="400" height="400">
+	Your browser does not support the HTML5 canvas tag.</canvas>
+ 
+
+
+
+<script>
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(20,20);
+ctx.lineTo(10000,20);
+//ctx.lineTo(70,100);
+ctx.stroke();
+
+
+</script> -->
 	<!-- /////////////////////////////// End Scripts ///////////////////////////////////////////// -->
 
 
