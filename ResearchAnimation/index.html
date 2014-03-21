@@ -5,7 +5,10 @@
   <title>ResearchAnimation</title>
 
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
 </head>
 <body>
 	
@@ -17,16 +20,27 @@
 <div class="hrzt-bar4"> </div>
 <!-- ///////////////////////////////////////////////// End Lines -->
 
+
+<!-- ////////////////popup that will run at start up -->
+<div id="dialog" title="How to start">
+	<p>Click on Medical Devices title to begin</p>
+</div>
+<!-- ////////////end of popup -->
+
  
  <!-- This script runs on startup allowing to hide all objects -->
  <script>
+ 
  	$( document ).ready(function() {
     $( "#secondBlockElement1" ).hide();
     $( "#secondBlockElement2" ).hide();
     $( "#secondBlockElement3" ).hide();
     $( "#secondBlockElement4" ).hide();
 
-    
+	//popup
+  $(function() {
+    $( "#dialog" ).dialog();
+  });
 
   });
  </script>
@@ -40,14 +54,17 @@
 		.first{
 			width: 50px;
 			float: left;
-
 			color: green;
+			/*border-style: double;
+			border-color:black;*/
+			
 		}
 		.second{
 			width: 50px;
 			float: right;
 			position: absolute;
 			border-style: groove;
+			border-color: blue;
 			left: 150px;
 			color: red;
 
@@ -57,6 +74,7 @@
 			float: right;
 			position: absolute;
 			border-style: groove;
+			border-color: blue;
 			color: red;
 			left: 150px;
 			top: 230px;
@@ -68,6 +86,7 @@
 			left: 150px;
 			top: 380px;
 			border-style: groove;
+			border-color: blue;
 			color: red;
 		}
 		.fifth{
@@ -77,6 +96,7 @@
 			color: red;
 			left: 150px;
 			border-style: groove;
+			border-color: blue;
 			top: 530px;
 		}
 		.hrzt-bar {
@@ -179,25 +199,24 @@
 	<script> 
 	// makes possible the dependant movement
 $("#medicalDevices").click(function () {
-	
+$("#medicalDevices").hide();
 	$("#secondBlockElement1").hide();
 	    $("#medicalDevicesBlock").animate({
-        width: "200%",
+	    // borderStyle: "dashed",
+		width: "50px",
         opacity: 60,
         marginLeft: "0.6in",
         fontSize: "2em",
         borderWidth: "10px"
     }, 1500, function () {
-
+	
+	// this draws the connectors
     $('.hrzt-bar').delay(1000).animate({'width':'180px', 'marginTop': '-20px'},1000);
     $('.hrzt-bar2').delay(2000).animate({'width':'180px', 'marginTop': '185px'},1000);
     $('.hrzt-bar3').delay(2500).animate({'width':'180px', 'marginTop': '340px'},1000);
     $('.hrzt-bar4').delay(2800).animate({'width':'180px', 'marginTop': '490px'},1000);
     
 
-    
-    
-    
     	$("#secondBlockElement1").show();
 
         $("#secondBlockElement1").animate({
