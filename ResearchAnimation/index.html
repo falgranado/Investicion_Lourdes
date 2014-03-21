@@ -10,20 +10,12 @@
 <body>
 	
 	
-	<!-- /////////////////////////////////////////// -->
-		<div class="hrzt-bar">
-    
-</div>
-	<div class="hrzt-bar2">
-    
-</div>
-<div class="hrzt-bar3">
-    
-</div>
-<div class="hrzt-bar4">
-    
-</div>
-<!-- ///////////////////////////////////////////////// -->
+	<!-- /////////////////////////////////////////// Lines-->
+<div class="hrzt-bar"> </div>
+<div class="hrzt-bar2"> </div>
+<div class="hrzt-bar3"> </div>
+<div class="hrzt-bar4"> </div>
+<!-- ///////////////////////////////////////////////// End Lines -->
 
  
  <!-- This script runs on startup allowing to hide all objects -->
@@ -196,27 +188,11 @@ $("#medicalDevices").click(function () {
         fontSize: "2em",
         borderWidth: "10px"
     }, 1500, function () {
-    	
-    	
-    	 
-    	 
-    	 // $('.arrow-up').animate({
-        // 'top': '40px'
-    // }, 1000, function () {
-        // $(this).addClass('arrow').removeClass('arrow-up');
-         // $('.arrow').animate({
-             // 'left': '240px'
-//             
-         // }, 1000);
-     // });
-    
+
     $('.hrzt-bar').delay(1000).animate({'width':'180px'},1000);
     $('.hrzt-bar2').delay(2000).animate({'width':'180px', 'marginTop': '185px'},1000);
     $('.hrzt-bar3').delay(2500).animate({'width':'180px', 'marginTop': '340px'},1000);
     $('.hrzt-bar4').delay(2800).animate({'width':'180px', 'marginTop': '490px'},1000);
-
-
-    $('.arrow').delay(1000).animate({'left': '240px'}, 1000);
     
 
     
@@ -261,24 +237,7 @@ $("#medicalDevices").click(function () {
     });
 });
 </script>
-<!-- 
-<canvas id="myCanvas" width="400" height="400">
-	Your browser does not support the HTML5 canvas tag.</canvas>
- 
 
-
-
-<script>
-var c=document.getElementById("myCanvas");
-var ctx=c.getContext("2d");
-ctx.beginPath();
-ctx.moveTo(20,20);
-ctx.lineTo(10000,20);
-//ctx.lineTo(70,100);
-ctx.stroke();
-
-
-</script> -->
 	<!-- /////////////////////////////// End Scripts ///////////////////////////////////////////// -->
 
 
