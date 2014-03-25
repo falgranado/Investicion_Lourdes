@@ -2,6 +2,7 @@
  * @author Joseph Ocasio and Francisco Granado
  */
 var clickCounter=0;
+var clickCounter2=0;
 function initialize(){
 	
 	expand('medical_devices_block');
@@ -141,6 +142,16 @@ function expand(div_block_id){
 			        fontSize: "1em",
 			        borderWidth: "5px"
 			        }, 1500);
+			
+			
+			     if(++clickCounter2 % 2 == 1){
+					$("#secondBlockElement1").click(function() {
+					$('.hrzt-bar5').animate({'width':'112px', 'marginTop': '-23px'},1000);
+					});
+							}
+					else{
+    				$('.hrzt-bar5').animate({'width':'-112px', 'marginTop': '-185px'},500);
+							}
     
 		}
 	});
