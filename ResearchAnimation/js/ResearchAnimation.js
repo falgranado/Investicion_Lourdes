@@ -95,7 +95,6 @@ function expand(div_block_id){
 					width: "100%",
 			        opacity: 60,
 			        marginLeft: "0.5in",
-			        fontSize: "2em",
 				    borderWidth: "5px"},500);
 				    
 				    
