@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>ResearchAnimation</title>
   <style>
-  div {
+  .default{
     background-color: #bca;
     width: 20px;
     border: 1px solid black;
@@ -13,10 +13,8 @@
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
- 
- 
-<button id="medicalDevices">&raquo; Expand</button>
-<div id="block">M<br />
+<div id="medical_devices_block" class="default" >
+	M<br />
 	e<br />
 	d<br />
 	i<br />
@@ -30,35 +28,14 @@
 	i<br />
 	c<br />
 	e<br />
-	s<br /></div>
+	s<br />
+</div>
  
 
 	
 	
-	<!-- /////////////////////////////// Scripts ///////////////////////////////////////////// --><script> 
-$( "#medicalDevices" ).click(function() {
-  $( "#block" ).animate({
-    width: "70%",
-    opacity: 60,
-    marginLeft: "0.6in",
-    fontSize: "3em",
-    borderWidth: "10px"
-  }, 1500 );
-});
-</script>
+	<!-- /////////////////////////////// Scripts ///////////////////////////////////////////// -->
+<script src="js/ResearchAnimation.js"></script>
 
-<script>
-$( "#go" ).click(function() {
-  $( "#block" ).animate({
-    width: "70%",
-    opacity: 60,
-    marginLeft: "0.6in",
-    fontSize: "3em",
-    borderWidth: "10px"
-  }, 1500 );
-});
-</script>
-
- 
 </body>
 </html>
