@@ -24,7 +24,7 @@ function expand(div_block_id){
 	$(id).click(function(){
 		//If the click counter is even then animate back to original state
 		if(++clickCounter % 2 == 0){
-			$(this).animate(id_original_css,1500);
+			$(this).animate(id_original_css,500);
 		}else{
 			//Expand to desired css
 			$(this).animate({
@@ -32,7 +32,7 @@ function expand(div_block_id){
 			        opacity: 60,
 			        marginLeft: "0.6in",
 			        fontSize: "2em",
-			        borderWidth: "10px"},1500);
+			        borderWidth: "10px"},500);
 		}
 	});
 	
