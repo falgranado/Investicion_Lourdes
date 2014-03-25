@@ -1,0 +1,10 @@
+body {
+
+}
+#medical_devices_block{
+	width: "70%",
+    opacity: 60,
+	margin-left: "0.6in",
+	font-size: "2em",
+	border-width: "10px"
+}
