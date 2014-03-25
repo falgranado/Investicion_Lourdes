@@ -5,6 +5,64 @@ var clickCounter=0;
 function initialize(){
 	
 	expand('medical_devices_block');
+	//@Author Joseph Ocasio
+		$( "#secondBlockElement1" ).hide();
+   		$( "#secondBlockElement2" ).hide();
+    	$( "#secondBlockElement3" ).hide();
+    	$( "#secondBlockElement4" ).hide();
+
+	//popup
+	    $(function() {
+	    	$( "#dialog" ).dialog();
+	    });
+	// this draws the connectors
+    	$("#secondBlockElement1").show();
+        $("#secondBlockElement1").animate({
+        width: "160",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
+        }, 1500);
+        
+        $("#secondBlockElement2").show();
+        $("#secondBlockElement2").animate({
+        width: "33",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
+        }, 1500);
+        
+        $("#secondBlockElement3").show();
+        $("#secondBlockElement3").animate({
+        width: "60",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
+        }, 1500);
+        
+        $("#secondBlockElement4").show();
+        $("#secondBlockElement4").animate({
+        width: "50",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
+
+
+
+        }, 1500, function(){
+        	$("#secondBlockElement1").hide();
+           	$("#secondBlockElement2").hide();
+            $("#secondBlockElement3").hide();
+            $("#secondBlockElement4").hide();
+        }
+        
+        );
+        $("#medical_devices_block").show();
+	//END Joseph Ocasio codes
 }
 //Expands and contracts desired css
 function expand(div_block_id){
@@ -37,6 +95,7 @@ function expand(div_block_id){
 	});
 	
 }
+//Loads everything when DOM is fully loaded
 $(document).ready(function(){
 	initialize();
 });

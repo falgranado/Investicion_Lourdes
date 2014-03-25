@@ -1,10 +1,97 @@
-body {
+
+#medical_devices_block{
+	width: "70%";
+    opacity: 60;
+	margin-left: "0.6in";
+	font-size: "2em";
+	border-width: "10px";
+}
+
+.first{
+			width: 40px;
+			float: left;
+			color: green;
+			text-align: center;
+			border-style: outset;
+			border-color: #FF0000;
+			
+			/*border-style: double;
+			border-color:black;*/
+			
+}
+.second{
+			width: 50px;
+			float: right;
+			position: absolute;
+			border-style: solid;
+			border-color: blue;
+			left: 150px;
+			color: red;
 
 }
-#medical_devices_block{
-	width: "70%",
-    opacity: 60,
-	margin-left: "0.6in",
-	font-size: "2em",
-	border-width: "10px"
+.third{
+			width: 50px;
+			float: right;
+			position: absolute;
+			border-style: solid;
+			border-color: blue;
+			color: red;
+			left: 150px;
+			top: 230px;
 }
+.fourth{
+			width: 50px;
+			float: right;
+			position: absolute;
+			left: 150px;
+			top: 380px;
+			border-style: solid;
+			border-color: blue;
+			color: red;
+}
+.fifth{
+			width: 50px;
+			float: right;
+			position: absolute;
+			color: red;
+			left: 150px;
+			border-style: solid;
+			border-color: blue;
+			top: 530px;
+}
+.hrzt-bar {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+}
+.hrzt-bar2 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+}
+.hrzt-bar3 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+}
+.hrzt-bar4 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+}
+		
+		
+		
+		
