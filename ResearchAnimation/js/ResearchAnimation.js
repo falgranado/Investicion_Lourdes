@@ -34,8 +34,9 @@ function expand(div_block_id){
 	};
 	$(id).click(function(){
 		//If the click counter is even then animate back to original state
+		$( "#dialog" ).remove();
 		if(++clickCounter % 2 == 0){
-			$(this).animate(id_original_css,500);
+			$(this).animate(id_original_css,1500);
 			
 			//de animate lines
 			$('.hrzt-bar').delay(10).animate({'width':'-175px', 'marginTop': '-23px'},500);
@@ -48,7 +49,6 @@ function expand(div_block_id){
     		$("#secondBlockElement1").show();
         	$("#secondBlockElement1").show();
         			$("#secondBlockElement1").animate({
-        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
@@ -59,7 +59,6 @@ function expand(div_block_id){
         	
         	$("#secondBlockElement2").show();
         	$("#secondBlockElement2").animate({
-        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
@@ -70,7 +69,6 @@ function expand(div_block_id){
         	
         	$("#secondBlockElement3").show();
         	$("#secondBlockElement3").animate({
-        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
@@ -82,7 +80,6 @@ function expand(div_block_id){
         	
         	$("#secondBlockElement4").show();
         	$("#secondBlockElement4").animate({
-        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
