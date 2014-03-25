@@ -78,11 +78,16 @@ function expand(div_block_id){
 	    borderWidth:'1px',
 	    borderHeight:'1px'
 	    
+	    
 	};
 	$(id).click(function(){
 		//If the click counter is even then animate back to original state
 		if(++clickCounter % 2 == 0){
 			$(this).animate(id_original_css,500);
+			$('.hrzt-bar').delay(10).animate({'width':'-175px', 'marginTop': '-23px'},500);
+    		$('.hrzt-bar2').delay(20).animate({'width':'-175px', 'marginTop': '-185px'},500);
+    		$('.hrzt-bar3').delay(25).animate({'width':'-175px', 'marginTop': '-340px'},500);
+    		$('.hrzt-bar4').delay(28).animate({'width':'-175px', 'marginTop': '-490px'},500);
 		}else{
 			//Expand to desired css
 			$(this).animate({
@@ -91,6 +96,12 @@ function expand(div_block_id){
 			        marginLeft: "0.6in",
 			        fontSize: "2em",
 				    borderWidth: "10px"},500);
+					$('.hrzt-bar').delay(10).animate({'width':'175px', 'marginTop': '-23px'},1000);
+    				$('.hrzt-bar2').delay(20).animate({'width':'175px', 'marginTop': '185px'},1000);
+    				$('.hrzt-bar3').delay(25).animate({'width':'175px', 'marginTop': '340px'},1000);
+    				$('.hrzt-bar4').delay(28).animate({'width':'175px', 'marginTop': '490px'},1000);
+    
+    
 		}
 	});
 	
