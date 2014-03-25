@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>ResearchAnimation</title>
+
   <style>
   .default{
     background-color: #bca;
@@ -10,10 +11,157 @@
     border: 1px solid black;
   }
   </style>
+
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="webjs/animateLevelOne.js"></script>
+
 </head>
 <body>
 <div id="medical_devices_block" class="default" >
+
+	
+
+	<!-- /////////////////////////////////////////// Lines-->
+<div class="hrzt-bar"> </div>
+<div class="hrzt-bar2"> </div>
+<div class="hrzt-bar3"> </div>
+<div class="hrzt-bar4"> </div>
+<!-- ///////////////////////////////////////////////// End Lines -->
+
+
+<!-- ////////////////popup that will run at start up -->
+<div id="dialog" title="How to start">
+	<p>Click on Medical Devices title to begin</p>
+</div>
+<!-- ////////////end of popup -->
+
+ 
+ <!-- This script runs on startup allowing to hide all objects -->
+ <script>
+ 
+ 	$( document ).ready(function() {
+    $( "#secondBlockElement1" ).hide();
+    $( "#secondBlockElement2" ).hide();
+    $( "#secondBlockElement3" ).hide();
+    $( "#secondBlockElement4" ).hide();
+
+	//popup
+  $(function() {
+    $( "#dialog" ).dialog();
+  });
+
+  });
+ </script>
+ 
+ 
+ <!-- Split two divs in two columns --> 
+ <style type="text/css">
+ 	#Container{
+			width: 400px;
+		}
+		.first{
+			width: 40px;
+			float: left;
+			color: green;
+			text-align: center;
+			border-style: outset;
+			border-color: #FF0000;
+			
+			/*border-style: double;
+			border-color:black;*/
+			
+		}
+		.second{
+			width: 50px;
+			float: right;
+			position: absolute;
+			border-style: solid;
+			border-color: blue;
+			left: 150px;
+			color: red;
+
+		}
+		.third{
+			width: 50px;
+			float: right;
+			position: absolute;
+			border-style: solid;
+			border-color: blue;
+			color: red;
+			left: 150px;
+			top: 230px;
+		}
+		.fourth{
+			width: 50px;
+			float: right;
+			position: absolute;
+			left: 150px;
+			top: 380px;
+			border-style: solid;
+			border-color: blue;
+			color: red;
+		}
+		.fifth{
+			width: 50px;
+			float: right;
+			position: absolute;
+			color: red;
+			left: 150px;
+			border-style: solid;
+			border-color: blue;
+			top: 530px;
+		}
+		.hrzt-bar {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		.hrzt-bar2 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		.hrzt-bar3 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		.hrzt-bar4 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:60px;
+    		left:130px;
+		}
+		
+		
+		
+		
+ </style>
+ <!-- End Split --> 
+ 
+ 
+ 
+ 
+<button id="medicalDevices" onclick="animateLevelOne()" style="height:600px; width:50px; background: transparent; border: none; font-size: 0; position: absolute" >&raquo; Expand</button>
+<button id="hideMedicalDevices" style="height:1200px;  margin-left: 1000px; width: 90px; background: transparent; border: none; position: absolute"> Hide</button>
+<!-- Container div holding four divs -->
+<div id="Container">
+	
+	<div class="first" id="medical_Devices_Block" style="font-size: 33px">
 	M<br />
 	e<br />
 	d<br />
@@ -29,13 +177,89 @@
 	c<br />
 	e<br />
 	s<br />
-</div>
- 
 
+</div>
+</div>
+
+ </div>
+ 
+ 
+ <div class="second" id="secondBlockElement1" > 
+	Product Development and <br />
+	introcuction process
+	</div>
+ 
+ 
+  <div class="third" id="secondBlockElement2" > 
+	FDA <br />
+	</div>
 	
+	<div class="fourth" id="secondBlockElement3" > 
+	Standards <br />
+	
+	</div>
+
+ 
+ 
+ 	<div class="fifth" id="secondBlockElement4" > 
+	USPTO <br />
+	
+	</div>
+<!-- End Container --> 
 	
 	<!-- /////////////////////////////// Scripts ///////////////////////////////////////////// -->
 <script src="js/ResearchAnimation.js"></script>
+<script>
+	// this draws the connectors
+    	$("#secondBlockElement1").show();
+        $("#secondBlockElement1").animate({
+        width: "160",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
+        }, 1500);
+        
+        $("#secondBlockElement2").show();
+        $("#secondBlockElement2").animate({
+        width: "33",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
+        }, 1500);
+        
+        $("#secondBlockElement3").show();
+        $("#secondBlockElement3").animate({
+        width: "60",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
+        }, 1500);
+        
+        $("#secondBlockElement4").show();
+        $("#secondBlockElement4").animate({
+        width: "50",
+        opacity: 60,
+        marginLeft: "-0.5in",
+        fontSize: "0em",
+        borderWidth: "1px"
 
+
+
+        }, 1500, function(){
+        	$("#secondBlockElement1").hide();
+           	$("#secondBlockElement2").hide();
+            $("#secondBlockElement3").hide();
+            $("#secondBlockElement4").hide();
+        }
+        
+        );
+        $("#medicalDevices").show();
+                
+</script>
+
+	<!-- /////////////////////////////// End Scripts ///////////////////////////////////////////// -->
 </body>
 </html>
