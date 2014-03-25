@@ -38,14 +38,14 @@
 			border-color: blue;
 			color: red;
 			left: 150px;
-			top: 230px;
+			top: 240px;
 }
 .fourth{
 			width: 50px;
 			float: right;
 			position: absolute;
 			left: 150px;
-			top: 380px;
+			top: 390px;
 			border-style: solid;
 			border-color: blue;
 			color: red;
@@ -58,7 +58,7 @@
 			left: 150px;
 			border-style: solid;
 			border-color: blue;
-			top: 530px;
+			top: 540px;
 }
 .hrzt-bar {
     		width:0px;
@@ -81,7 +81,7 @@
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:60px;
+    		top:50px;
     		left:130px;
 }
 .hrzt-bar4 {
@@ -89,7 +89,7 @@
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:60px;
+    		top:50px;
     		left:130px;
 }
 		

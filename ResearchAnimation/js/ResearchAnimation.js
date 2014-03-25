@@ -46,55 +46,56 @@ function expand(div_block_id){
     		
     		//de animate blocks
     		$("#secondBlockElement1").show();
-        	$("#secondBlockElement1").animate({
+        	$("#secondBlockElement1").show();
+        			$("#secondBlockElement1").animate({
         			marginTop: "10px",
         			width: "160",
         			opacity: 60,
-        			marginLeft: "-1.0in",
-        			fontSize: ".5em",
-        			borderWidth: "1px"
+        			marginLeft: "0.0in",
+        			fontSize: "1em",
+        			borderWidth: "0px"
         			}, 500);
         	$("#secondBlockElement1").fadeOut("fast");
         	
         	$("#secondBlockElement2").show();
         	$("#secondBlockElement2").animate({
+        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
-        			marginLeft: "-1.0in",
-        			fontSize: ".5em",
-        			orderWidth: "1px",
-        			borderWidth: "1px"
-
-
+        			marginLeft: "0.0in",
+        			fontSize: "1em",
+        			borderWidth: "0px"
         			}, 500);
         	$("#secondBlockElement2").fadeOut("fast");
         	
         	$("#secondBlockElement3").show();
         	$("#secondBlockElement3").animate({
+        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
-        			marginLeft: "-1.0in",
-        			fontSize: ".5em",
-        			borderWidth: "1px"
+        			marginLeft: "0.0in",
+        			fontSize: "1em",
+        			borderWidth: "0px"
         			}, 500);
         	$("#secondBlockElement3").fadeOut("fast");
         	
         	
         	$("#secondBlockElement4").show();
         	$("#secondBlockElement4").animate({
+        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
-        			marginLeft: "-1.0in",
-        			fontSize: ".5em",
-        			borderWidth: "1px"
-        			}, 500);
+        			marginLeft: "0.0in",
+        			fontSize: "1em",
+        			borderWidth: "0px"
+        	},500);
         	$("#secondBlockElement4").fadeOut("fast");
 
 
 		}else{
 			//Expand to desired css
 			$(this).animate({
-					width: "70%",
+					width: "100%",
 			        opacity: 60,
 			        marginLeft: "0.5in",
 			        fontSize: "2em",
@@ -111,7 +112,6 @@ function expand(div_block_id){
     				//animate blocks
     				$("#secondBlockElement1").show();
         			$("#secondBlockElement1").animate({
-        			marginTop: "10px",
         			width: "160",
         			opacity: 60,
         			marginLeft: "1.6in",
@@ -122,7 +122,6 @@ function expand(div_block_id){
         			$("#secondBlockElement2").show();
         			$("#secondBlockElement2").animate({
         			width: "33",
-        			marginTop: "10px",
         			opacity: 60,
         			marginLeft: "1.6in",
         			fontSize: "1em",
@@ -131,7 +130,6 @@ function expand(div_block_id){
         	
 			        $("#secondBlockElement3").show();
 			        $("#secondBlockElement3").animate({
-			       	marginTop: "13px",
 			        width: "60",
 			        opacity: 60,
 			        marginLeft: "1.6in",
@@ -142,7 +140,6 @@ function expand(div_block_id){
 			        $("#secondBlockElement4").show();
 			        $("#secondBlockElement4").animate({
 			        width: "50",
-			        marginTop: "13px",
 			        opacity: 60,
 			        marginLeft: "1.6in",
 			        fontSize: "1em",
