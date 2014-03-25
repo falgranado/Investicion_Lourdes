@@ -32,7 +32,7 @@ function expand(div_block_id){
 			        opacity: 60,
 			        marginLeft: "0.6in",
 			        fontSize: "2em",
-			        borderWidth: "10px"},1500);
+			        borderWidth: "1px"},1500);
 		}
 	});
 	
