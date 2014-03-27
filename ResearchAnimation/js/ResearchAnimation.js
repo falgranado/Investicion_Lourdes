@@ -3,6 +3,9 @@
  */
 var clickCounter=0;
 var clickCounter2=0;
+var clickCounter3=0;
+var clickCounter4=0;
+
 function initialize(){
 	
 	expand('medical_devices_block');
@@ -44,6 +47,9 @@ function expand(div_block_id){
     		$('.hrzt-bar2').delay(20).animate({'width':'-175px', 'marginTop': '-185px'},500);
     		$('.hrzt-bar3').delay(25).animate({'width':'-175px', 'marginTop': '-340px'},500);
     		$('.hrzt-bar4').delay(28).animate({'width':'-175px', 'marginTop': '-490px'},500);
+    		$('.hrzt-bar5').delay(25).animate({'width':'-112px'},500);
+    		clickCounter2 = 0;
+
     		
     		
     		//de animate blocks
@@ -162,7 +168,7 @@ function expand(div_block_id){
 		}
 	});
 	
-	
+		
 	     $("#secondBlockElement1").click(function() {
 						if(++clickCounter2 % 2 == 1){
 						$('.hrzt-bar5').animate({'width':'112px'},500);
