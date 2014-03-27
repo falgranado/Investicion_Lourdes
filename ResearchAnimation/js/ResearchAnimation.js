@@ -92,6 +92,7 @@ function expand(div_block_id){
 
 		}else{
 			//Expand to desired css
+			
 			$(this).animate({
 					width: "100%",
 			        opacity: 60,
@@ -142,19 +143,39 @@ function expand(div_block_id){
 			        fontSize: "1em",
 			        borderWidth: "5px"
 			        }, 1500);
-			
-			
-			     if(++clickCounter2 % 2 == 1){
-					$("#secondBlockElement1").click(function() {
-					$('.hrzt-bar5').animate({'width':'112px', 'marginTop': '-23px'},1000);
-					});
-							}
-					else{
-    				$('.hrzt-bar5').animate({'width':'-112px', 'marginTop': '-185px'},500);
-							}
+			        
+			        
+			   
+			        
+			        
+	     			// if(++clickCounter2 % 2 == 1){
+					// $("#secondBlockElement1").click(function() {
+					// alert(clickCounter2);
+					// clickCounter2++;
+					// $('.hrzt-bar5').animate({'width':'112px', 'marginTop': '-23px'},1000);
+					// });
+							// }
+					// else{
+						// alert("else" + clickCounter2);
+							// }
     
 		}
 	});
+	
+	
+	     $("#secondBlockElement1").click(function() {
+						if(++clickCounter2 % 2 == 1){
+						$('.hrzt-bar5').animate({'width':'112px'},500);
+						
+						}
+						else{
+    					$('.hrzt-bar5').animate({'width':'-112px'},500);
+    					$('.hrzt-bar5').hide();
+
+    					
+
+						}
+					});
 	
 }
 //Loads everything when DOM is fully loaded
