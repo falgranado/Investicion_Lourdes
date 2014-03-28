@@ -30,7 +30,7 @@ function expand(div_block_id){
 	//Original ID of style
 	var id_original_css=  {
 		backgroundColor: '#bca',
-	    width: '20px',
+	    width: '30px',
 	    border: '1px solid black',
 	    marginLeft:'0',
 	    fontSize:'1em',
