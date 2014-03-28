@@ -118,7 +118,6 @@ function expand(div_block_id){
     				$('.hrzt-bar3').delay(25).animate({'width':'112px', 'marginTop': '340px'},1000);
     				$('.hrzt-bar4').delay(28).animate({'width':'112px', 'marginTop': '490px'},1000);
     				
-    				
     				//animate blocks
     				$("#secondBlockElement1").show();
         			$("#secondBlockElement1").animate({
@@ -154,39 +153,24 @@ function expand(div_block_id){
 			        marginLeft: "1.6in",
 			        fontSize: "1em",
 			        borderWidth: "5px"
-			        }, 1500);
-			        
-
-    
+			        }, 1500);  
 		}
 	});
 	
 	//call elements that are in charge of using the counters and animating the lines when neccesary
 	     $("#secondBlockElement1").click(function() {
-			if(++clickCounter2 % 2 == 1){
-				$('.hrzt-bar5').animate({'width':'112px'},500);
-			}
-			else{		
-    			$('.hrzt-bar5').animate({'width':'-112px'},500);
-				}
+			if(++clickCounter2 % 2 == 1) $('.hrzt-bar5').animate({'width':'112px'},500);
+			else $('.hrzt-bar5').animate({'width':'-112px'},500);
 			});
 			
 	     $("#secondBlockElement2").click(function() {
-			if(++clickCounter3 % 2 == 1){
-				$('.hrzt-bar6').animate({'width':'112px'},500);
-			}
-			else{		
-    			$('.hrzt-bar6').animate({'width':'-112px'},500);
-				}
+			if(++clickCounter3 % 2 == 1) $('.hrzt-bar6').animate({'width':'112px'},500);
+			else $('.hrzt-bar6').animate({'width':'-112px'},500);	
 			});
 			
 	     $("#secondBlockElement3").click(function() {
-			if(++clickCounter4 % 2 == 1){
-				$('.hrzt-bar7').animate({'width':'112px'},500);
-			}
-			else{		
-    			$('.hrzt-bar7').animate({'width':'-112px'},500);
-				}
+			if(++clickCounter4 % 2 == 1) $('.hrzt-bar7').animate({'width':'112px'},500);
+			else $('.hrzt-bar7').animate({'width':'-112px'},500);	
 			});
 					
 					
