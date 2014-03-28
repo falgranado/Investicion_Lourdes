@@ -1,6 +1,9 @@
 /**
  * @author Joseph Ocasio and Francisco Granado
  */
+
+//counters, consider change name
+//need to take into account extremely large numbers, perhaps a reset when dealing with even numbers
 var clickCounter=0;
 var clickCounter2=0;
 var clickCounter3=0;
@@ -10,6 +13,7 @@ function initialize(){
 	
 	expand('medical_devices_block');
 	//@Author Joseph Ocasio
+	//neccesary, so we will force that the blocks will be drawn only when the user clicks the medical devices bar
 		 $( "#secondBlockElement1" ).hide();
    		 $( "#secondBlockElement2" ).hide();
     	 $( "#secondBlockElement3" ).hide();
@@ -48,6 +52,9 @@ function expand(div_block_id){
     		$('.hrzt-bar3').delay(25).animate({'width':'-175px', 'marginTop': '-340px'},500);
     		$('.hrzt-bar4').delay(28).animate({'width':'-175px', 'marginTop': '-490px'},500);
     		$('.hrzt-bar5').delay(25).animate({'width':'-112px'},500);
+    		$('.hrzt-bar6').delay(25).animate({'width':'-112px'},500);
+    		$('.hrzt-bar7').delay(25).animate({'width':'-112px'},500);
+
     		clickCounter2 = 0;
 
     		
@@ -98,7 +105,6 @@ function expand(div_block_id){
 
 		}else{
 			//Expand to desired css
-			
 			$(this).animate({
 					width: "100%",
 			        opacity: 60,
@@ -150,39 +156,41 @@ function expand(div_block_id){
 			        borderWidth: "5px"
 			        }, 1500);
 			        
-			        
-			   
-			        
-			        
-	     			// if(++clickCounter2 % 2 == 1){
-					// $("#secondBlockElement1").click(function() {
-					// alert(clickCounter2);
-					// clickCounter2++;
-					// $('.hrzt-bar5').animate({'width':'112px', 'marginTop': '-23px'},1000);
-					// });
-							// }
-					// else{
-						// alert("else" + clickCounter2);
-							// }
+
     
 		}
 	});
 	
-		
+	//call elements that are in charge of using the counters and animating the lines when neccesary
 	     $("#secondBlockElement1").click(function() {
-						if(++clickCounter2 % 2 == 1){
-						$('.hrzt-bar5').animate({'width':'112px'},500);
-						
-						}
-						else{
-    					$('.hrzt-bar5').animate({'width':'-112px'},500);
-    					$('.hrzt-bar5').hide();
-
-    					
-
-						}
-					});
-	
+			if(++clickCounter2 % 2 == 1){
+				$('.hrzt-bar5').animate({'width':'112px'},500);
+			}
+			else{		
+    			$('.hrzt-bar5').animate({'width':'-112px'},500);
+				}
+			});
+			
+	     $("#secondBlockElement2").click(function() {
+			if(++clickCounter3 % 2 == 1){
+				$('.hrzt-bar6').animate({'width':'112px'},500);
+			}
+			else{		
+    			$('.hrzt-bar6').animate({'width':'-112px'},500);
+				}
+			});
+			
+	     $("#secondBlockElement3").click(function() {
+			if(++clickCounter4 % 2 == 1){
+				$('.hrzt-bar7').animate({'width':'112px'},500);
+			}
+			else{		
+    			$('.hrzt-bar7').animate({'width':'-112px'},500);
+				}
+			});
+					
+					
+					
 }
 //Loads everything when DOM is fully loaded
 $(document).ready(function(){

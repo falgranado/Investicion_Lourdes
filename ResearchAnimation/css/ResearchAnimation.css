@@ -74,7 +74,7 @@
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:60px;
+    		top:56px;
     		left:130px;
 }
 .hrzt-bar3 {
@@ -82,7 +82,7 @@
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:50px;
+    		top:51px;
     		left:130px;
 }
 .hrzt-bar4 {
@@ -98,9 +98,26 @@
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:25px;
+    		top:27px;
     		left:412px;
 }
+.hrzt-bar6 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:241px;
+    		left:285px;
+}
+.hrzt-bar7 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:391px;
+    		left:310px;
+}
+
 		
 		
 		
