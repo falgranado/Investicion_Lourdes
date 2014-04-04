@@ -1,4 +1,3 @@
-
 #medical_devices_block{
 	width: "70%";
     opacity: 60;
@@ -7,6 +6,7 @@
 	border-width: "10px";
 	position: absolute;
 }
+
 
 .first{
 			width: 40px;
@@ -61,7 +61,7 @@
 			border-color: blue;
 			top: 540px;
 }
-.hrzt-bar {
+.horizontal-bar {
     		width:0px;
     		height:1px;
     		background: black;
@@ -69,7 +69,7 @@
     		top:50px;
     		left:130px;
 }
-.hrzt-bar2 {
+.horizontal-bar2 {
     		width:0px;
     		height:1px;
     		background: black;
@@ -77,7 +77,7 @@
     		top:56px;
     		left:130px;
 }
-.hrzt-bar3 {
+.horizontal-bar3 {
     		width:0px;
     		height:1px;
     		background: black;
@@ -85,7 +85,7 @@
     		top:51px;
     		left:130px;
 }
-.hrzt-bar4 {
+.horizontal-bar4 {
     		width:0px;
     		height:1px;
     		background: black;
@@ -93,7 +93,7 @@
     		top:50px;
     		left:130px;
 }
-.hrzt-bar5 {
+.horizontal-bar5 {
     		width:0px;
     		height:1px;
     		background: black;
@@ -101,7 +101,7 @@
     		top:27px;
     		left:412px;
 }
-.hrzt-bar6 {
+.horizontal-bar6 {
     		width:0px;
     		height:1px;
     		background: black;
@@ -109,13 +109,21 @@
     		top:241px;
     		left:285px;
 }
-.hrzt-bar7 {
+.horizontal-bar7 {
     		width:0px;
     		height:1px;
     		background: black;
     		position:absolute;
     		top:391px;
     		left:310px;
+}
+.horizontal-bar8 {
+    		width:0px;
+    		height:1px;
+    		background: black;
+    		position:absolute;
+    		top:540px;
+    		left:300px;
 }
 
 		

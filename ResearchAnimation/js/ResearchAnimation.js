@@ -8,24 +8,39 @@ var clickCounter=0;
 var clickCounter2=0;
 var clickCounter3=0;
 var clickCounter4=0;
+var clickCounter5=0;
 
 function initialize(){
-	
+	// var counters = {};
+		// var counters = new Array();
+			// $('div').each(function(){
+			// if(!this.id){}else{
+			// var id = this.id +'counter';
+				// counters.push(id);
+				// counters[id] = 0 ;
+			// alert(counters);
+// 			
+			// }
+// 			
+		// });
+// 	
 	expand('medical_devices_block');
 	//@Author Joseph Ocasio
 	//neccesary, so we will force that the blocks will be drawn only when the user clicks the medical devices bar
-		 $( "#secondBlockElement1" ).hide();
-   		 $( "#secondBlockElement2" ).hide();
-    	 $( "#secondBlockElement3" ).hide();
-    	 $( "#secondBlockElement4" ).hide();
+		 $( "#p_and_d_block" ).hide();
+   		 $( "#fda_block" ).hide();
+    	 $( "#standards_div_block" ).hide();
+    	 $( "#upsto_block" ).hide();
 
 	//popup
 	    $(function() {
 	    	$( "#dialog" ).dialog();
 	    });
 }
-//Expands and contracts desired css
+//Expands and contracts to desired css style
 function expand(div_block_id){
+	
+	
 	var id='#'+div_block_id;//ID received by function
 	//Original ID of style
 	var id_original_css=  {
@@ -47,60 +62,61 @@ function expand(div_block_id){
 			$(this).animate(id_original_css,1500);
 			
 			//de animate lines
-			$('.hrzt-bar').delay(10).animate({'width':'-175px', 'marginTop': '-23px'},500);
-    		$('.hrzt-bar2').delay(20).animate({'width':'-175px', 'marginTop': '-185px'},500);
-    		$('.hrzt-bar3').delay(25).animate({'width':'-175px', 'marginTop': '-340px'},500);
-    		$('.hrzt-bar4').delay(28).animate({'width':'-175px', 'marginTop': '-490px'},500);
-    		$('.hrzt-bar5').delay(25).animate({'width':'-112px'},500);
-    		$('.hrzt-bar6').delay(25).animate({'width':'-112px'},500);
-    		$('.hrzt-bar7').delay(25).animate({'width':'-112px'},500);
+			$('.horizontal-bar').delay(10).animate({'width':'-175px', 'marginTop': '-23px'},500);
+    		$('.horizontal-bar2').delay(20).animate({'width':'-175px', 'marginTop': '-185px'},500);
+    		$('.horizontal-bar3').delay(25).animate({'width':'-175px', 'marginTop': '-340px'},500);
+    		$('.horizontal-bar4').delay(28).animate({'width':'-175px', 'marginTop': '-490px'},500);
+    		$('.horizontal-bar5').delay(25).animate({'width':'-112px'},500);
+    		$('.horizontal-bar6').delay(25).animate({'width':'-112px'},500);
+    		$('.horizontal-bar7').delay(25).animate({'width':'-112px'},500);
+    		$('.horizontal-bar8').delay(25).animate({'width':'-112px'},500);
 
     		clickCounter2 = 0;
 
     		
     		
     		//de animate blocks
-    		$("#secondBlockElement1").show();
-        	$("#secondBlockElement1").show();
-        			$("#secondBlockElement1").animate({
+    		$("#p_and_d_block").show();
+        	$("#p_and_d_block").show();
+        			$("#p_and_d_block").animate({
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
         			fontSize: "1em",
         			borderWidth: "0px"
         			}, 500);
-        	$("#secondBlockElement1").fadeOut("fast");
+        	$("#p_and_d_block").fadeOut("fast");
         	
-        	$("#secondBlockElement2").show();
-        	$("#secondBlockElement2").animate({
+        	$("#fda_block").show();
+        	$("#fda_block").animate({
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
         			fontSize: "1em",
         			borderWidth: "0px"
         			}, 500);
-        	$("#secondBlockElement2").fadeOut("fast");
+        	$("#fda_block").fadeOut("fast");
         	
-        	$("#secondBlockElement3").show();
-        	$("#secondBlockElement3").animate({
+        	$("#standards_div_block").show();
+        	$("#standards_div_block").animate({
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
         			fontSize: "1em",
         			borderWidth: "0px"
         			}, 500);
-        	$("#secondBlockElement3").fadeOut("fast");
+        	$("#standards_div_block").fadeOut("fast");
         	
         	
-        	$("#secondBlockElement4").show();
-        	$("#secondBlockElement4").animate({
+        	$("#upsto_block").show();
+        	$("#upsto_block").animate({
         			width: "160",
         			opacity: 60,
         			marginLeft: "0.0in",
         			fontSize: "1em",
         			borderWidth: "0px"
         	},500);
-        	$("#secondBlockElement4").fadeOut("fast");
+        	$("#upsto_block").fadeOut("fast");
 
 
 		}else{
@@ -113,14 +129,14 @@ function expand(div_block_id){
 				    
 				    
 				    //animate lines
-					$('.hrzt-bar').delay(10).animate({'width':'112px', 'marginTop': '-23px'},1000);
-    				$('.hrzt-bar2').delay(20).animate({'width':'112px', 'marginTop': '185px'},1000);
-    				$('.hrzt-bar3').delay(25).animate({'width':'112px', 'marginTop': '340px'},1000);
-    				$('.hrzt-bar4').delay(28).animate({'width':'112px', 'marginTop': '490px'},1000);
+					$('.horizontal-bar').delay(10).animate({'width':'112px', 'marginTop': '-23px'},1000);
+    				$('.horizontal-bar2').delay(20).animate({'width':'112px', 'marginTop': '185px'},1000);
+    				$('.horizontal-bar3').delay(25).animate({'width':'112px', 'marginTop': '340px'},1000);
+    				$('.horizontal-bar4').delay(28).animate({'width':'112px', 'marginTop': '490px'},1000);
     				
     				//animate blocks
-    				$("#secondBlockElement1").show();
-        			$("#secondBlockElement1").animate({
+    				$("#p_and_d_block").show();
+        			$("#p_and_d_block").animate({
         			width: "160",
         			opacity: 60,
         			marginLeft: "1.6in",
@@ -128,8 +144,8 @@ function expand(div_block_id){
         			borderWidth: "5px"
         			}, 1500);
         
-        			$("#secondBlockElement2").show();
-        			$("#secondBlockElement2").animate({
+        			$("#fda_block").show();
+        			$("#fda_block").animate({
         			width: "33",
         			opacity: 60,
         			marginLeft: "1.6in",
@@ -137,8 +153,8 @@ function expand(div_block_id){
         			borderWidth: "5px"
         			}, 1500);
         	
-			        $("#secondBlockElement3").show();
-			        $("#secondBlockElement3").animate({
+			        $("#standards_div_block").show();
+			        $("#standards_div_block").animate({
 			        width: "60",
 			        opacity: 60,
 			        marginLeft: "1.6in",
@@ -146,8 +162,8 @@ function expand(div_block_id){
 			        borderWidth: "5px"
 			        }, 1500);
         
-			        $("#secondBlockElement4").show();
-			        $("#secondBlockElement4").animate({
+			        $("#upsto_block").show();
+			        $("#upsto_block").animate({
 			        width: "50",
 			        opacity: 60,
 			        marginLeft: "1.6in",
@@ -158,20 +174,24 @@ function expand(div_block_id){
 	});
 	
 	//call elements that are in charge of using the counters and animating the lines when neccesary
-	     $("#secondBlockElement1").click(function() {
-			if(++clickCounter2 % 2 == 1) $('.hrzt-bar5').animate({'width':'112px'},500);
-			else $('.hrzt-bar5').animate({'width':'-112px'},500);
+	     $("#p_and_d_block").click(function() {
+			if(++clickCounter2 % 2 == 1) $('.horizontal-bar5').animate({'width':'112px'},500);
+			else $('.horizontal-bar5').animate({'width':'-112px'},500);
 			});
 			
-	     $("#secondBlockElement2").click(function() {
-			if(++clickCounter3 % 2 == 1) $('.hrzt-bar6').animate({'width':'112px'},500);
-			else $('.hrzt-bar6').animate({'width':'-112px'},500);	
+	     $("#fda_block").click(function() {
+			if(++clickCounter3 % 2 == 1) $('.horizontal-bar6').animate({'width':'112px'},500);
+			else $('.horizontal-bar6').animate({'width':'-112px'},500);	
 			});
 			
-	     $("#secondBlockElement3").click(function() {
-			if(++clickCounter4 % 2 == 1) $('.hrzt-bar7').animate({'width':'112px'},500);
-			else $('.hrzt-bar7').animate({'width':'-112px'},500);	
+	     $("#standards_div_block").click(function() {
+			if(++clickCounter4 % 2 == 1) $('.horizontal-bar7').animate({'width':'112px'},500);
+			else $('.horizontal-bar7').animate({'width':'-112px'},500);	
 			});
+		$("#upsto_block").click(function(){
+			if(++clickCounter5 % 2 == 1) $('.horizontal-bar8').animate({'width':'112px'},500);
+			else $('.horizontal-bar8').animate({'width':'-112px'},500);	
+		});
 					
 					
 					
