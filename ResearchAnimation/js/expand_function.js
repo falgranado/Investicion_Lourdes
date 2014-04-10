@@ -48,11 +48,13 @@ function initialize() {
                 console.log("entered expand if");
                 $(this).animate(original_class, time, callback_function);
                 console.log("animated original class");
+                console.log(counters[div_block_id + '_counter']);
             } else {
                 console.log("entered expand else");
                 //Expand to desired css
                 $(this).animate(expansion_class, time, callback_function);
                 console.log("animated expand class");
+                console.log(div_block_id+'='+dejcounters[div_block_id + '_counter']);
                 //Reset counter on every uneven click so it wont get bigger
                 counters[div_block_id + '_counter'] = 0;
             }
