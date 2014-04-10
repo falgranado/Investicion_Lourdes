@@ -16,6 +16,7 @@ function initialize() {
         borderWidth: '5px'
     };
 
+	
     var counters = new Array();
     // Searches for every div that have an id attribute
     $('div').each(function () {
@@ -29,7 +30,23 @@ function initialize() {
 	$(function() {
 	    	$( "#dialog" ).dialog();
 	    });
-    expand('medical_devices_block', id_expanded_css, id_original_css, 500);
+	    
+	    
+	$( "#p_and_d_block" ).hide();
+    $( "#fda_block" ).hide();
+    $( "#standards_div_block" ).hide();
+    $( "#upsto_block" ).hide();
+	
+    expand('medical_devices_block', id_expanded_css, id_original_css, 500, function(){
+    	$("#p_and_d_block").show();
+        			// $("#p_and_d_block").animate({
+        			// width: "160",
+        			// opacity: 60,
+        			// marginLeft: "0.2in",
+        			// fontSize: "1em",
+        			// borderWidth: "5px"
+        			// }, 1500);
+    });
     expand('p_and_d_block', id_expanded_css, id_original_css, 500,function(){
     	alert('ended');
     });
