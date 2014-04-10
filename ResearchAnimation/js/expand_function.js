@@ -38,7 +38,10 @@ function initialize() {
     $( "#upsto_block" ).hide();
 	
     expand('medical_devices_block', id_expanded_css, id_original_css, 500, function(){
-    	$("#p_and_d_block").show();
+    	$("#p_and_d_block").show('slow');
+    	$( "#fda_block" ).show('slow');
+        $( "#standards_div_block" ).show('slow');
+        $( "#upsto_block" ).show('slow');
         			// $("#p_and_d_block").animate({
         			// width: "160",
         			// opacity: 60,
