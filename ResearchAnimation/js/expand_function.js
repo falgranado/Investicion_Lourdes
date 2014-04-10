@@ -30,26 +30,24 @@ function initialize() {
 	$(function() {
 	    	$( "#dialog" ).dialog();
 	    });
-	    
-	    
+
 	$( "#p_and_d_block" ).hide();
     $( "#fda_block" ).hide();
     $( "#standards_div_block" ).hide();
     $( "#upsto_block" ).hide();
 	
-    expand('medical_devices_block', id_expanded_css, id_original_css, 500, function(){
-    	$("#p_and_d_block").show('slow');
-    	$( "#fda_block" ).show('slow');
-        $( "#standards_div_block" ).show('slow');
-        $( "#upsto_block" ).show('slow');
-        			// $("#p_and_d_block").animate({
-        			// width: "160",
-        			// opacity: 60,
-        			// marginLeft: "0.2in",
-        			// fontSize: "1em",
-        			// borderWidth: "5px"
-        			// }, 1500);
-    });
+    expand('medical_devices_block', id_expanded_css, id_original_css, 500,function(){
+    	$("#p_and_d_block").hide('slow');
+    	$( "#fda_block" ).hide('slow');
+        $( "#standards_div_block" ).hide('slow');
+        $( "#upsto_block" ).hide('slow');
+       }
+        ,function(){
+	        $("#p_and_d_block").show('slow');
+	    	$( "#fda_block" ).show('slow');
+	        $( "#standards_div_block" ).show('slow');
+	        $( "#upsto_block" ).show('slow');        	
+        });
     expand('p_and_d_block', id_expanded_css, id_original_css, 500,function(){
     	alert('ended');
     });
@@ -66,13 +64,19 @@ function initialize() {
             $("#dialog").remove();
             if (++counter % 2 == 0) {
                 console.log("entered expand if");
-                $(this).animate(original_class, time, callback_function_original);
+                $(this).animate(original_class, {
+                	duration:time, 
+                	start:callback_function_original
+                	});
                 console.log("animated original class");
                 console.log(counters[div_block_id + '_counter']);
             } else {
                 console.log("entered expand else");
                 //Expand to desired css
-                $(this).animate(expansion_class, time, callback_function_expand);
+                $(this).animate(expansion_class, {
+                	duration:time,
+                	start:callback_function_expand
+                	});
                 console.log("animated expand class");
                 console.log(div_block_id+'='+dejcounters[div_block_id + '_counter']);
                 //Reset counter on every uneven click so it wont get bigger
