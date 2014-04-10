@@ -54,7 +54,7 @@ function initialize() {
     	alert('ended');
     });
 
-    function expand(div_block_id, expansion_class, original_class, time, callback_function) {
+    function expand(div_block_id, expansion_class, original_class, time, callback_function_original,callback_function_expand) {
         console.log("entered expand");
         var id = '#' + div_block_id; //ID received by function
         counter = counters[div_block_id + '_counter']; //Associates the counter per div block respectively 
@@ -66,13 +66,13 @@ function initialize() {
             $("#dialog").remove();
             if (++counter % 2 == 0) {
                 console.log("entered expand if");
-                $(this).animate(original_class, time, callback_function);
+                $(this).animate(original_class, time, callback_function_original);
                 console.log("animated original class");
                 console.log(counters[div_block_id + '_counter']);
             } else {
                 console.log("entered expand else");
                 //Expand to desired css
-                $(this).animate(expansion_class, time, callback_function);
+                $(this).animate(expansion_class, time, callback_function_expand);
                 console.log("animated expand class");
                 console.log(div_block_id+'='+dejcounters[div_block_id + '_counter']);
                 //Reset counter on every uneven click so it wont get bigger
