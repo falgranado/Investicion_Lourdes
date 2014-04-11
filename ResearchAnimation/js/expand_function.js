@@ -54,7 +54,10 @@ function initialize() {
         $('.horizontal-bar2').hide('slow');
         $('.horizontal-bar3').hide('slow');
         $('.horizontal-bar4').hide('slow');
+		$('.horizontal-bar6').hide('slow');
+		$('.horizontal-bar-p-and-d').hide('slow');
 
+		
        }
         ,function(){
         	
@@ -67,12 +70,16 @@ function initialize() {
 	        $( "#standards_div_block" ).show('slow');
 	        $( "#upsto_block" ).show('slow');        	
         });
-    expand('p_and_d_block', id_expanded_p_and_d_css, id_original_p_and_d_css, 500,function(){
-    		$('.horizontal-bar-p-and-d').show().delay(10).animate({'height':'400px'},1000, function(){
-				        $('.horizontal-bar6').show().delay(10).animate({'width':'50px'},1000);
+    	expand('p_and_d_block', id_expanded_p_and_d_css, id_original_p_and_d_css, 500,function(){
+    	
+    		$('.horizontal-bar6').show().delay(10).animate({'width':'50px'},1000, function(){
+    		$('.horizontal-bar-p-and-d').show().delay(10).animate({'height':'400px'},1000);
+    	});
+    		
 
-    		});
-
+    }, function(){
+    	$('.horizontal-bar6').hide('slow');
+		$('.horizontal-bar-p-and-d').hide('slow');
     });
 
     function expand(div_block_id, expansion_class, original_class, time, callback_function_original,callback_function_expand) {
