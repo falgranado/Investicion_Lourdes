@@ -41,8 +41,18 @@ function initialize() {
     	$( "#fda_block" ).hide('slow');
         $( "#standards_div_block" ).hide('slow');
         $( "#upsto_block" ).hide('slow');
+        $('.horizontal-bar').hide('slow');
+        $('.horizontal-bar2').hide('slow');
+        $('.horizontal-bar3').hide('slow');
+        $('.horizontal-bar4').hide('slow');
+
        }
         ,function(){
+        	
+        	$('.horizontal-bar').show().delay(10).animate({'width':'50px'},1000);
+			$('.horizontal-bar2').show().delay(10).animate({'width':'50px'},1000);
+			$('.horizontal-bar3').show().delay(10).animate({'width':'50px'},1000);
+			$('.horizontal-bar4').show().delay(10).animate({'width':'50px'},1000);
 	        $("#p_and_d_block").show('slow');
 	    	$( "#fda_block" ).show('slow');
 	        $( "#standards_div_block" ).show('slow');
