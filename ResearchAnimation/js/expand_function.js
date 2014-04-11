@@ -37,10 +37,10 @@ function initialize() {
     $( "#upsto_block" ).hide();
 	
     expand('medical_devices_block', id_expanded_css, id_original_css, 500,function(){
-    	$("#p_and_d_block").hide('slow');
-    	$( "#fda_block" ).hide('slow');
-        $( "#standards_div_block" ).hide('slow');
-        $( "#upsto_block" ).hide('slow');
+    	$("#p_and_d_block").hide('fast');
+    	$( "#fda_block" ).hide('fast');
+        $( "#standards_div_block" ).hide('fast');
+        $( "#upsto_block" ).hide('fast');
        }
         ,function(){
 	        $("#p_and_d_block").show('slow');
@@ -51,7 +51,16 @@ function initialize() {
     expand('p_and_d_block', id_expanded_css, id_original_css, 500,function(){
     	alert('ended');
     });
-
+/*
+ * 
+ * Params div_block_id : enter the id of the div you want to animate
+ * 		  expansion_class: enter the css modification to be made in JSON format
+ * 		  original_class: enter the original css styling of this div
+ * 		  time: enter duration of animation. Can be used with "fast","slow"  or integers in microseconds
+ * 		  callback_function_original: enter a function you want to use when divs animate back to its origninal state
+ * 		  callback_function_original: enter a function you want to use when divs animate back to its expanding state
+ * 	 	   
+ */
     function expand(div_block_id, expansion_class, original_class, time, callback_function_original,callback_function_expand) {
         console.log("entered expand");
         var id = '#' + div_block_id; //ID received by function
@@ -65,8 +74,8 @@ function initialize() {
             if (++counter % 2 == 0) {
                 console.log("entered expand if");
                 $(this).animate(original_class, {
-                	duration:time, 
-                	start:callback_function_original
+                	duration:time, //animation duration
+                	start:callback_function_original//make animation happen symultaneously with callback
                 	});
                 console.log("animated original class");
                 console.log(counters[div_block_id + '_counter']);
@@ -75,7 +84,7 @@ function initialize() {
                 //Expand to desired css
                 $(this).animate(expansion_class, {
                 	duration:time,
-                	start:callback_function_expand
+                	start:callback_function_expand //make animation happen symultaneously with callback
                 	});
                 console.log("animated expand class");
                 console.log(div_block_id+'='+dejcounters[div_block_id + '_counter']);
