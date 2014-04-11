@@ -15,9 +15,6 @@
 			border-style: outset;
 			border-color: #FF0000;
 			
-			/*border-style: double;
-			border-color:black;*/
-			
 }
 .second{
 			width: 100px;
@@ -100,21 +97,21 @@
     		top:897px;
     		left:40px;
 }
-.horizontal-bar5 {
-    		width:0px;
-    		height:1px;
+.horizontal-bar-p-and-d {
+    		width:1px;
+    		height:0px;
     		background: black;
     		position:absolute;
-    		top:27px;
-    		left:412px;
+    		top:28px;
+    		left:230px;
 }
 .horizontal-bar6 {
     		width:0px;
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:241px;
-    		left:285px;
+    		top:28px;
+    		left:180px;
 }
 .horizontal-bar7 {
     		width:0px;

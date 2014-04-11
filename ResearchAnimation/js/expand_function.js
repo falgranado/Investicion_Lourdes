@@ -16,11 +16,11 @@ function initialize() {
         borderWidth: '5px'
     };
     var id_expanded_p_and_d_css = {
-        backgroundColor: 'red'
+    	backgroundColor: '#bca'
     };
     
     var id_original_p_and_d_css = {
-    	        backgroundColor: 'red'
+    	 backgroundColor: '#CCC0C0'
 
     };
     
@@ -68,6 +68,11 @@ function initialize() {
 	        $( "#upsto_block" ).show('slow');        	
         });
     expand('p_and_d_block', id_expanded_p_and_d_css, id_original_p_and_d_css, 500,function(){
+    		$('.horizontal-bar-p-and-d').show().delay(10).animate({'height':'400px'},1000, function(){
+				        $('.horizontal-bar6').show().delay(10).animate({'width':'50px'},1000);
+
+    		});
+
     });
 
     function expand(div_block_id, expansion_class, original_class, time, callback_function_original,callback_function_expand) {
