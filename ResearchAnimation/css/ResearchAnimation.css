@@ -1,3 +1,5 @@
+/* 
+ * 
 #medical_devices_block{
 	width: "70%";
     opacity: 60;
@@ -20,11 +22,13 @@
 			
 }
 .second{
-			width: 50px;
+			width: 100px;
 			float: right;
 			position: absolute;
 			border-style: solid;
-			border-color: blue;
+			border-width: 2px;
+			border-color: black;
+			text-align: center;
 			left: 150px;
 			color: red;
 			top: 15px;
@@ -35,62 +39,68 @@
 			float: right;
 			position: absolute;
 			border-style: solid;
-			border-color: blue;
+			border-width: 2px;
+			text-align: center;
+			border-color: black;
 			color: red;
 			left: 150px;
-			top: 240px;
+			top: 500px;
 }
 .fourth{
 			width: 50px;
 			float: right;
+			text-align: center;
 			position: absolute;
 			left: 150px;
-			top: 390px;
+			top: 700px;
 			border-style: solid;
-			border-color: blue;
+			border-width: 2px;
+			border-color: black;
 			color: red;
 }
 .fifth{
 			width: 50px;
 			float: right;
+			text-align: center;
 			position: absolute;
 			color: red;
 			left: 150px;
 			border-style: solid;
-			border-color: blue;
-			top: 540px;
+			border-width: 2px;
+			border-color: black;
+			top: 900px;
 }
 .horizontal-bar {
     		width:0px;
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:50px;
-    		left:130px;
+    		top:25px;
+    		left:40px;
 }
 .horizontal-bar2 {
     		width:0px;
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:56px;
-    		left:130px;
+    		top:497px;
+    		left:40px;
 }
 .horizontal-bar3 {
     		width:0px;
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:51px;
-    		left:130px;
+    		top:697px;
+    		left:40px;
 }
 .horizontal-bar4 {
     		width:0px;
     		height:1px;
     		background: black;
     		position:absolute;
-    		top:50px;
-    		left:130px;
+    		top:897px;
+    		left:40px;
 }
 .horizontal-bar5 {
     		width:0px;
@@ -124,7 +134,7 @@
     		top:540px;
     		left:300px;
 }
-
+*/
 		
 		
 		
