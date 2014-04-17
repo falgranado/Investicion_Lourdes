@@ -198,9 +198,9 @@
 
     position:absolute;
 
-    top:45px;
+    top:22px;
 
-    left:200px;
+    left:330px;
 
 }
 
@@ -214,9 +214,9 @@
 
     position:absolute;
 
-    top:28px;
+    top:22px;
 	
-    left:400px;
+    left:282px;
 
 }
 
@@ -266,4 +266,47 @@
 
     left:300px;
 
+}
+.product_definition_process {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: red;
+
+    color: black;
+
+    left: 400px;
+
+    top: 50px;
+}
+
+.design_process {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: red;
+
+    color: black;
+
+    left: 400px;
+
+    top: 110px;
 }

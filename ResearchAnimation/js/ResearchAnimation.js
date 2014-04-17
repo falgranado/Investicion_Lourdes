@@ -31,6 +31,9 @@ function initialize(){
    		 $( "#fda_block" ).hide();
     	 $( "#standards_div_block" ).hide();
     	 $( "#upsto_block" ).hide();
+    	 $( "#product_definition_process_block").hide();
+    	 $( "#design_process_block").hide();
+
 
 	//popup
 	    $(function() {
@@ -82,6 +85,9 @@ function expand(div_block_id){
         	$("#upsto_block").hide('slow');
         	$('.horizontal-bar-p-and-d').hide('slow');
 			$('.vertical-bar-p-and-d').hide('slow');
+			$("#product_definition_process_block").hide('slow');
+			$("#design_process_block").hide('slow');
+
         	
 
 		}else{
@@ -141,16 +147,37 @@ function expand(div_block_id){
 	     $("#p_and_d_block").click(function() {
 			if(++clickCounter2 % 2 == 1) 
 			{
-				$('.vertical-bar-p-and-d').show('slow').animate({'height':'400px'},500);
-				$('.horizontal-bar-p-and-d').show('slow').animate({'width':'400px'},500);
+				$('.vertical-bar-p-and-d').show('slow').animate({'height':'450px'},500);
+				$('.horizontal-bar-p-and-d').show('slow').animate({'width':'48px'},500);
+				$("#product_definition_process_block").show('slow');
+        			$("#p_and_d_block").animate({
+        			width: "160",
+        			opacity: 60,
+        			marginLeft: "0.33in",
+        			fontSize: "1em",
+        			borderWidth: "1px"
+        			}, 1500);
+        			
+        		$("#design_process_block").show('slow');
+        			$("#p_and_d_block").animate({
+        			width: "160",
+        			opacity: 60,
+        			marginLeft: "0.33in",
+        			fontSize: "1em",
+        			borderWidth: "1px"
+        			}, 1500);
 				
 			}
 			else 
 			{
 				$('.horizontal-bar-p-and-d').hide('slow');
 				$('.vertical-bar-p-and-d').hide('slow');
+				$("#product_definition_process_block").hide('slow');
+				$( "#design_process_block").hide('slow');
+
 
 			}
+			
 			});
 			
 	     $("#fda_block").click(function() {
