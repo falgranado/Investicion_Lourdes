@@ -7,6 +7,9 @@
     margin-left:"0.6in";
 
     font-size:"2em";
+    
+   background-color: #A9F5F2;
+
 
     border-width:"10px";
 
@@ -17,6 +20,8 @@
 .first {
 
     width: 40px;
+    
+    background-color: #F8FBEF;
 
     color: green;
 
@@ -40,7 +45,9 @@
 
     border-width: 2px;
 
-    border-color: red;
+    border-color: blue;
+    
+    background-color: #F8FBEF;
 
     text-align: center;
 
@@ -59,6 +66,8 @@
     float: right;
 
     position: absolute;
+    
+    background-color: #F8FBEF;
 
     border-style: solid;
 
@@ -66,7 +75,7 @@
 
     text-align: center;
 
-    border-color: red;
+    border-color: blue;
 
     color: black;
 
@@ -89,12 +98,14 @@
     left: 150px;
 
     top: 700px;
+    
+    background-color: #F8FBEF;
 
     border-style: solid;
 
     border-width: 2px;
 
-    border-color: red;
+    border-color: blue;
 
     color: black;
 
@@ -111,6 +122,9 @@
     position: absolute;
 
     color: black;
+    
+    background-color: #F8FBEF;
+
 
     left: 150px;
 
@@ -118,7 +132,7 @@
 
     border-width: 2px;
 
-    border-color: red;
+    border-color: blue;
 
     top: 900px;
 
@@ -280,7 +294,9 @@
 
     text-align: center;
 
-    border-color: red;
+    background-color: #F8FBEF;
+
+    border-color: blue;
 
     color: black;
 
@@ -302,11 +318,37 @@
 
     text-align: center;
 
-    border-color: red;
+    border-color: blue;
 
     color: black;
+    
+    background-color: #F8FBEF;
 
     left: 400px;
 
-    top: 110px;
+    top: 130px;
+}
+
+.risk_management_process {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: blue;
+
+    color: black;
+    
+    background-color: #F8FBEF;
+
+    left: 400px;
+
+    top: 200px;
 }

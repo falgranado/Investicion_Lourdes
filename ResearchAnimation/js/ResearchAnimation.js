@@ -33,6 +33,8 @@ function initialize(){
     	 $( "#upsto_block" ).hide();
     	 $( "#product_definition_process_block").hide();
     	 $( "#design_process_block").hide();
+    	 $( "#risk_management_process_block").hide();
+
 
 
 	//popup
@@ -47,7 +49,7 @@ function expand(div_block_id){
 	var id='#'+div_block_id;//ID received by function
 	//Original ID of style
 	var id_original_css=  {
-		backgroundColor: '#bca',
+		backgroundColor: '#A9F5F2',
 	    width: '30px',
 	    border: '1px solid black',
 	    marginLeft:'0',
@@ -87,6 +89,8 @@ function expand(div_block_id){
 			$('.vertical-bar-p-and-d').hide('slow');
 			$("#product_definition_process_block").hide('slow');
 			$("#design_process_block").hide('slow');
+			$("#risk_management_process-block").hide('slow');
+
 
         	
 
@@ -147,6 +151,7 @@ function expand(div_block_id){
 	     $("#p_and_d_block").click(function() {
 			if(++clickCounter2 % 2 == 1) 
 			{
+				$("#p_and_d_block").animate({color: 'green'});
 				$('.vertical-bar-p-and-d').show('slow').animate({'height':'450px'},500);
 				$('.horizontal-bar-p-and-d').show('slow').animate({'width':'48px'},500);
 				$("#product_definition_process_block").show('slow');
@@ -167,13 +172,24 @@ function expand(div_block_id){
         			borderWidth: "1px"
         			}, 1500);
 				
+				$("#risk_management_process_block").show('slow');
+        			$("#p_and_d_block").animate({
+        			width: "160",
+        			opacity: 60,
+        			marginLeft: "0.33in",
+        			fontSize: "1em",
+        			borderWidth: "1px"
+        			}, 1500);
 			}
 			else 
 			{
+				$("#p_and_d_block").animate({color: 'black'});
 				$('.horizontal-bar-p-and-d').hide('slow');
 				$('.vertical-bar-p-and-d').hide('slow');
 				$("#product_definition_process_block").hide('slow');
 				$( "#design_process_block").hide('slow');
+				$( "#risk_management_process_block").hide('slow');
+
 
 
 			}
