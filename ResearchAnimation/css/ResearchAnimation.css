@@ -107,7 +107,7 @@ color: white;
 
     left: 150px;
 
-    top: 700px;
+    top: 850px;
     
     border-style: solid;
 
@@ -145,7 +145,7 @@ color: white;
 
     border-color: blue;
 
-    top: 900px;
+    top: 1000px;
 
 }
 
@@ -191,7 +191,7 @@ color: white;
 
     position:absolute;
 
-    top:700px;
+    top:847px;
 
     left:40px;
 
@@ -207,7 +207,7 @@ color: white;
 
     position:absolute;
 
-    top:900px;
+    top:1000px;
 
     left:40px;
 
@@ -279,7 +279,7 @@ color: white;
 
 .design_process {
 	width: 50px;
-
+	cursor:pointer;
     float: right;
 
     position: absolute;
@@ -310,7 +310,7 @@ color: white;
     float: right;
 
     position: absolute;
-
+	cursor:pointer;
     border-style: solid;
 
     border-width: 1px;
@@ -338,7 +338,7 @@ color: white;
     float: right;
 
     position: absolute;
-
+	cursor:pointer;
     border-style: solid;
 
     border-width: 1px;
@@ -362,7 +362,7 @@ color: white;
 
 .post_launch_process {
 	width: 60px;
-
+	cursor:pointer;
     float: right;
 
     position: absolute;
@@ -476,7 +476,7 @@ color: white;
     border-width: 1px;
 
     text-align: center;
-
+	cursor:pointer;
     border-color: blue;
 
     color: white;
@@ -689,7 +689,7 @@ color: white;
 
 .competencies_analysis {
 	width: 60px;
-
+	cursor:pointer;
     float: right;
 
     position: absolute;
@@ -716,7 +716,7 @@ color: white;
 }
 .customer_analysis {
 	width: 60px;
-
+	cursor:pointer;
     float: right;
 
     position: absolute;
@@ -772,7 +772,7 @@ color: white;
 	width: 60px;
 
     float: right;
-
+cursor:pointer;
     position: absolute;
 
     border-style: solid;
@@ -1586,7 +1586,7 @@ color: white;
 }
 .design_inputs {
 	width: 60px;
-
+	cursor:pointer;
     float: right;
 
     position: absolute;
@@ -1623,7 +1623,7 @@ color: white;
     border-width: 1px;
 
     text-align: center;
-
+	cursor:pointer;
     border-color: blue;
 
     color: white;
@@ -1667,7 +1667,7 @@ color: white;
 }
 .design_review {
 	width: 60px;
-
+	cursor:pointer;
     float: right;
 
     position: absolute;
@@ -1696,7 +1696,7 @@ color: white;
 	width: 60px;
 
     float: right;
-
+	cursor:pointer;
     position: absolute;
 
     border-style: solid;
@@ -1723,7 +1723,7 @@ color: white;
 	width: 60px;
 
     float: right;
-
+	cursor:pointer;
     position: absolute;
 
     border-style: solid;
@@ -3564,7 +3564,7 @@ color: white;
     
     background-color: #002570;
 
-     left: 1300px;
+     left: 1280px;
 
     top: 400px;
 }
@@ -4066,9 +4066,330 @@ color: white;
 
      left: 400px;
 
-    top: 650px;
+    top: 655px;
 }
 .clasification_generic {
+	width: 50px;
+
+    float: right;
+	cursor:pointer;
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: blue;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #FF3333;
+
+     left: 470px;
+
+    top: 650px;
+}
+.medical_specialties {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: blue;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #FF5C33;
+
+     left: 470px;
+
+    top: 610px;
+}
+.medical_specialties_box {
+	width: 250px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: left;
+
+    border-color: #FF5C33;
+
+    color: black;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+
+     left: 522px;
+
+    top: 590px;
+}
+.regulatory_classes {
+	width: 50px;
+
+    float: right;
+	cursor:pointer;
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: blue;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #FF3333;
+
+     left: 550px;
+
+    top: 650px;
+}
+.classI {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 550px;
+
+    top: 700px;
+}
+.classII {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 550px;
+
+    top: 760px;
+}
+.classIII {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 550px;
+
+    top: 820px;
+}
+.gmpqs {
+	width: 90px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 640px;
+
+    top: 700px;
+}
+.reserved_device {
+	width: 70px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 640px;
+
+    top: 710px;
+}
+.n510k {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 640px;
+
+    top: 720px;
+}
+.intended_use {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 660px;
+
+    top: 650px;
+}
+.indications_use {
+	width: 70px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 660px;
+
+    top: 660px;
+}
+.risk_based {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 660px;
+
+    top: 670px;
+}
+.special_controls {
 	width: 50px;
 
     float: right;
@@ -4090,7 +4411,2061 @@ color: white;
 
     background-color: #FF3333;
 
-     left: 470px;
+     left: 640px;
+
+    top: 760px;
+}
+.special_controls_box {
+	width: 120px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: left;
+
+    border-color: #FF5C33;
+
+    color: black;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+
+     left: 695px;
+
+    top: 760px;
+}
+.classIII_devices {
+	width: 130px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 640px;
+
+    top: 820px;
+}
+.limitations_device {
+	width: 100px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 740px;
+
+    top: 720px;
+}
+.submission_types {
+	width: 50px;
+
+    float: right;
+	cursor:pointer;
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: blue;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #FF3333;
+
+     left: 880px;
 
     top: 650px;
+}
+.general_controls {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: blue;
+
+    color: white;
+    border-radius:5px;
+   	cursor:pointer;
+   	-webkit-border-radius: 5px;
+
+    background-color: #FF3333;
+
+     left: 950px;
+
+    top: 650px;
+}
+.gmp {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: blue;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #FF3333;
+
+     left: 1050px;
+
+    top: 650px;
+}
+.hde {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 880px;
+
+    top: 690px;
+}
+.pma {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 880px;
+
+    top: 705px;
+}
+.n510 {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 880px;
+
+    top: 740px;
+}
+.traditional_pma {
+	width: 70px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 950px;
+
+    top: 705px;
+}
+.modular_pma {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 1020px;
+
+    top: 705px;
+}
+.streamlined_pma {
+	width: 80px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 1080px;
+
+    top: 705px;
+}
+.traditional510 {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 950px;
+
+    top: 740px;
+}
+
+.abbreviated510 {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 1020px;
+
+    top: 740px;
+}
+.special510 {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 1080px;
+
+    top: 740px;
+}
+.substancial_equivalence {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #E68080;
+
+     left: 950px;
+
+    top: 780px;
+}
+.general_controls_box {
+	width: 120px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: left;
+
+    border-color: #FF5C33;
+
+    color: black;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+
+     left: 920px;
+
+    top: 570px;
+}
+.fda-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:648px;
+
+    left:130px;
+
+}
+.generic-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:648px;
+
+    left:400px;
+
+}
+.generic-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:629px;
+
+    left:475px;
+
+}
+.generic-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:610px;
+
+    left:435px;
+
+}
+.generic-vrtcl2 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:629px;
+
+    left:475px;
+
+}
+.generic-vrtcl3 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:629px;
+
+    left:515px;
+
+}
+.generic-vrtcl4 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:629px;
+
+    left:845px;
+
+}
+.generic-vrtcl5 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:629px;
+
+    left:915px;
+
+}
+.generic-vrtcl6 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:629px;
+
+    left:1015px;
+
+}
+.regulatory-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:657px;
+
+    left:480px;
+
+}
+.regulatory-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:693px;
+
+    left:480px;
+
+}.regulatory-hrzt3 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:753px;
+
+    left:480px;
+
+}.regulatory-hrzt4 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:813px;
+
+    left:480px;
+
+}
+.regulatory-vrtcl{
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:657px;
+
+    left:480px;
+
+}
+.classes-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:647px;
+
+    left:500px;
+
+}
+.classes-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:642px;
+
+    left:560px;
+
+}
+.classes-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:642px;
+
+    left:560px;
+
+}
+.classes-hrzt3 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:652px;
+
+    left:560px;
+
+}
+.classes-hrzt4 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:663px;
+
+    left:560px;
+
+}
+.classI-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:692px;
+
+    left:540px;
+
+}
+.classI-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:692px;
+
+    left:560px;
+
+}
+.classI-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:702px;
+
+    left:560px;
+
+}
+.classI-hrzt3 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:712px;
+
+    left:560px;
+
+}
+
+.classII-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:752px;
+
+    left:530px;
+
+}
+.classIII-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:813px;
+
+    left:530px;
+
+}
+.submission-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:648px;
+
+    left:800px;
+
+}
+.submission-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:648px;
+
+    left:800px;
+
+}
+.submission-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:683px;
+
+    left:800px;
+
+}
+.submission-hrzt3 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:698px;
+
+    left:800px;
+
+}
+.submission-hrzt4 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:733px;
+
+    left:800px;
+
+}
+.n510-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:732px;
+
+    left:865px;
+
+}
+.n510-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:718px;
+
+    left:880px;
+
+}
+.n510-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:717px;
+
+    left:880px;
+
+}
+.n510-vrtcl2 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:717px;
+
+    left:915px;
+
+}
+.n510-vrtcl3 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:717px;
+
+    left:985px;
+
+}
+.n510-vrtcl4 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:717px;
+
+    left:1045px;
+
+}
+.n510-hrzt3 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:778px;
+
+    left:880px;
+
+}
+.device_standards {
+	width: 50px;
+	cursor:pointer;
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #33CC33;
+
+     left: 280px;
+
+    top: 865px;
+}.test_stanrdards {
+	width: 50px;
+	cursor:pointer;
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #33CC33;
+
+     left: 440px;
+
+    top: 865px;
+}
+.material_standards {
+	width: 80px;
+	cursor:pointer;
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #33CC33;
+
+     left: 600px;
+
+    top: 865px;
+}
+.procedure_standards {
+	width: 80px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #33CC33;
+
+     left: 800px;
+
+    top: 865px;
+}
+.organizations {
+	width: 100px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #85E085;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #85E085;
+
+     left: 200px;
+
+    top: 890px;
+}
+.schematics {
+	width: 65px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #85E085;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #85E085;
+
+     left: 310px;
+
+    top: 895px;
+}
+.laboratory {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #85E085;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #85E085;
+
+     left: 380px;
+
+    top: 870px;
+}
+.result {
+	width: 50px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #85E085;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #85E085;
+
+     left: 440px;
+
+    top: 895px;
+}
+.org_box {
+	width: 25px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: left;
+
+    border-color: #85E085;
+
+    color: black;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+
+     left: 230px;
+
+    top: 900px;
+}
+.schem_box {
+	width: 100px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: left;
+
+    border-color: #85E085;
+
+    color: black;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+
+     left: 300px;
+
+    top: 920px;
+}
+.test_box {
+	width: 100px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: left;
+
+    border-color: #85E085;
+
+    color: black;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+
+     left: 495px;
+
+    top: 870px;
+}
+.material_box {
+	width: 100px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: left;
+
+    border-color: #85E085;
+
+    color: black;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+
+     left: 690px;
+
+    top: 870px;
+}
+.standards-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:847px;
+
+    left:180px;
+
+}
+.standards-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:847px;
+
+    left:245px;
+
+}
+.standards-vrtcl2 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:847px;
+
+    left:405px;
+
+}
+.standards-vrtcl3 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:847px;
+
+    left:575px;
+
+}
+.standards-vrtcl4 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:847px;
+
+    left:780px;
+
+}
+.standards-vrtcl5 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:847px;
+
+    left:170px;
+
+}
+.standards-vrtcl6 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:855px;
+
+    left:260px;
+
+}
+.standards-vrtcl7 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:865px;
+
+    left:405px;
+
+}
+.standards-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:864px;
+
+    left:240px;
+
+}
+.patents {
+	width: 50px;
+	cursor:pointer;
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #A366A3;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #A366A3;
+
+     left: 250px;
+
+    top: 1007px;
+}
+.utility_patents {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #A366A3;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #A366A3;
+
+     left: 230px;
+
+    top: 1020px;
+}
+.design_patents {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #A366A3;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #A366A3;
+
+     left: 290px;
+
+    top: 1020px;
+}
+.patent_qualifications {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #B280B2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #B280B2;
+
+     left: 350px;
+
+    top: 1000px;
+}
+.usefulness {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 430px;
+
+    top: 1020px;
+}
+.novelty {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 500px;
+
+    top: 1020px;
+}
+.no {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 570px;
+
+    top: 1020px;
+}
+.improvement {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 640px;
+
+    top: 1020px;
+}
+.design {
+	width: 60px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 710px;
+
+    top: 1020px;
+}
+.patentable {
+	width: 60px;
+	cursor:pointer;
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 780px;
+
+    top: 1020px;
+}
+.process_method {
+	width: 80px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 880px;
+
+    top: 1000px;
+}
+.machine {
+	width: 80px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 880px;
+
+    top: 1015px;
+}
+.composition {
+	width: 100px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 880px;
+
+    top: 1030px;
+}
+.article {
+	width: 100px;
+
+    float: right;
+
+    position: absolute;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    text-align: center;
+
+    border-color: #C299C2;
+
+    color: white;
+    border-radius:5px;
+   	
+   	-webkit-border-radius: 5px;
+
+    background-color: #C299C2;
+
+     left: 880px;
+
+    top: 1045px;
+}
+.upsto-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:160px;
+
+}
+.upsto-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:210px;
+
+}
+.upsto-vrtcl2 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:238px;
+
+}
+.patent-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:238px;
+
+}
+.patent-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:400px;
+
+}
+.patent-vrtcl2 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:470px;
+
+}
+.patent-vrtcl3 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:540px;
+
+}
+.patent-vrtcl4 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:610px;
+
+}
+.patent-vrtcl5 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:680px;
+
+}
+.patent-vrtcl6 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:748px;
+
+}
+
+.patent-vrtcl6 {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1000px;
+
+    left:748px;
+
+}
+.patentable-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1017px;
+
+    left:720px;
+
+}
+.patentable-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:992px;
+
+    left:790px;
+
+}
+.patentable-hrzt2 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:992px;
+
+    left:790px;
+
+}
+.patentable-hrzt3 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1008px;
+
+    left:790px;
+
+}
+.patentable-hrzt4{
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1022px;
+
+    left:790px;
+
+}
+.patentable-hrzt5 {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:1038px;
+
+    left:790px;
+
+}
+.design-control-hrzt {
+	
+	width:0px;
+
+    height:1px;
+
+    background: black;
+
+    position:absolute;
+
+    top:170px;
+
+    left:1100px;
+
+}
+.design-control-vrtcl {
+	
+	width:1px;
+
+    height:0px;
+
+    background: black;
+
+    position:absolute;
+
+    top:170px;
+
+    left:1250px;
+
 }

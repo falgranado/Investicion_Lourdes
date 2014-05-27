@@ -24,6 +24,19 @@ var clickCounter17=0;
 var clickCounter18=0;
 var clickCounter19=0;
 var clickCounter20=0;
+var clickCounter21=0;
+var clickCounter22=0;
+var clickCounter23=0;
+var clickCounter24=0;
+var clickCounter25=0;
+var clickCounter26=0;
+var clickCounter27=0;
+var clickCounter28=0;
+var clickCounter29=0;
+var clickCounter30=0;
+var clickCounter31=0;
+
+
 function initialize(){
 	var counters = {};
 		var counters = new Array();
@@ -123,14 +136,72 @@ function initialize(){
 		 $(".post-launch-vrtcl12").hide();
 		 $(".post-launch-vrtcl13").hide();
 		 $("#medical_device_records_block").hide();
-      	 $("#medical_device_records_block").hide();
       	 $("#design_history_file_block").hide();
       	 $("#device_master_record_block").hide();
       	 $("#device_history_records_block").hide();
       	 $("#technical_device_documentation_file_block").hide();
       	 $("#cdrh_block").hide();
 		 $("#clasification_generic_block").hide();
-		 
+		 $("#medical_specialties_block").hide();
+		 $("#medical_specialties_box_block").hide();
+		 $("#classI_block").hide('slow');
+		 $("#classII_block").hide();
+		 $("#classIII_block").hide();
+		 $("#intended_use_block").hide();
+		 $("#indication_use_block").hide();
+		 $("#risk_based_block").hide();
+		 $("#gmpqs_block").hide();
+		 $("#reserved_device_block").hide();
+		 $("#n510k_block").hide('slow');
+		 $("#limitations_device_block").hide();
+		 $("#classIII_devices_block").hide();
+		 $("#special_controls_block").hide();
+		 $("#special_controls_box_block").hide();
+		 $("#regulatory_classes_block").hide();
+		 $("#hde_block").hide();
+		 $("#pma_block").hide();
+		 $("#n510_block").hide();
+		 $("#traditional_pma_block").hide();
+		 $("#modular_pma_block").hide();
+		 $("#streamlined_pma_block").hide();
+		 $("#traditional510_block").hide();
+		 $("#abbreviated510_block").hide();
+		 $("#special510_block").hide();
+		 $("#substancial_equivalence_block").hide();
+		 $("#general_controls_box_block").hide();
+		 $("#submission_types_block").hide();
+		 $("#general_controls_block").hide();
+		 $("#gmp_block").hide();
+		 $("#device_standards_block").hide();
+		 $("#test_standards_block").hide();
+		 $("#material_standards_block").hide();
+		 $("#procedure_standards_block").hide();
+		 $("#organizations_block").hide();
+		 $("#schematics_block").hide();
+		 $("#laboratory_block").hide();
+		 $("#result_block").hide();
+		 $("#org_box_block").hide();
+		 $("#schem_box_block").hide();
+		 $("#test_box_block").hide();
+		 $("#material_box_block").hide();
+		 $("#utility_patents_block").hide();
+		 $("#design_patents_block").hide();
+		 $("#patent_qualifications_block").hide();
+		 $("#usefulness_block").hide();
+		 $("#novelty_block").hide();
+		 $("#no_block").hide();
+		 $("#improvement_block").hide();
+		 $("#design_block").hide();
+		 $("#patentable_block").hide();
+		 $("#patents_block").hide();
+		 $("#process_method_block").hide();
+		 $("#machine_block").hide();
+		 $("#composition_block").hide();
+		 $("#article_block").hide();
+
+
+		 																				$("#design_controls_block").hide();
+
 		 
 		 
 
@@ -210,6 +281,17 @@ function expand(div_block_id){
 			clickCounter18=0;
 			clickCounter19=0;
 			clickCounter20=0;
+			clickCounter21=0;
+			clickCounter22=0;
+			clickCounter23=0;
+			clickCounter24=0;
+			clickCounter25=0;
+			clickCounter26=0;
+			clickCounter27=0;
+			clickCounter28=0;
+			clickCounter29=0;
+			clickCounter30=0;
+			clickCounter31=0;
 
     		
     		
@@ -410,11 +492,136 @@ function expand(div_block_id){
       		$('.medical-device-vrtcl4').hide('slow');
       		$('.medical-device-vrtcl5').hide('slow');
       		$("#medical_device_records_block").hide('slow');
-      		$("#medical_device_records_block").hide('slow');
       		$("#design_history_file_block").hide('slow');
       		$("#device_master_record_block").hide('slow');
       		$("#device_history_records_block").hide('slow');
       		$("#technical_device_documentation_file_block").hide('slow');
+      		$("#cdrh_block").hide('slow');
+			$("#clasification_generic_block").hide('slow');
+			$("#medical_specialties_block").hide('slow');
+			$("#medical_specialties_box_block").hide('slow');
+			$("#classI_block").hide('slow');
+			$("#classII_block").hide('slow');
+			$("#classIII_block").hide('slow');
+			$("#intended_use_block").hide('slow');
+			$("#indication_use_block").hide('slow');
+			$("#risk_based_block").hide('slow');
+			$("#gmpqs_block").hide('slow');
+			$("#reserved_device_block").hide('slow');
+			$("#n510k_block").hide('slow');
+			$("#limitations_device_block").hide('slow');
+			$("#classIII_devices_block").hide('slow');
+			$("#special_controls_block").hide('slow');
+			$("#special_controls_box_block").hide('slow');
+			$("#regulatory_classes_block").hide('slow');
+			$("#hde_block").hide('slow');
+			$("#pma_block").hide('slow');
+			$("#n510_block").hide('slow');
+			$("#traditional_pma_block").hide('slow');
+			$("#modular_pma_block").hide('slow');
+			$("#streamlined_pma_block").hide('slow');
+			$("#traditional510_block").hide('slow');
+			$("#abbreviated510_block").hide('slow');
+			$("#special510_block").hide('slow');
+			$("#substancial_equivalence_block").hide('slow');
+			$("#general_controls_box_block").hide('slow');
+			$("#submission_types_block").hide('slow');
+			$("#general_controls_block").hide('slow');
+			$("#gmp_block").hide('slow');
+			$(".generic-vrtcl").hide('slow');
+			$(".generic-hrzt").hide('slow');
+			$(".generic-vrtcl2").hide('slow');
+			$(".generic-hrzt2").hide('slow');
+			$(".generic-vrtcl3").hide('slow');
+			$(".generic-vrtcl4").hide('slow');
+			$(".generic-vrtcl5").hide('slow');
+			$(".generic-vrtcl6").hide('slow');
+			$(".fda-hrzt").hide('slow');
+			$(".regulatory-hrzt").hide('slow');
+			$(".regulatory-vrtcl").hide('slow');
+			$(".regulatory-hrzt2").hide('slow');
+			$(".regulatory-hrzt3").hide('slow');
+			$(".regulatory-hrzt4").hide('slow');
+			$(".classes-hrzt").hide('slow');
+			$(".classes-vrtcl").hide('slow');
+			$(".classes-hrzt2").hide('slow');
+			$(".classes-hrzt3").hide('slow');
+			$(".classes-hrzt4").hide('slow');
+			$(".classI-hrzt").hide('slow');
+			$(".classI-vrtcl").hide('slow');
+			$(".classI-hrzt2").hide('slow');
+			$(".classI-hrzt3").hide('slow');
+			$(".classII-hrzt").hide('slow');
+			$(".classIII-hrzt").hide('slow');
+			$(".submission-hrzt").hide('slow');
+			$(".submission-vrtcl").hide('slow');
+			$(".submission-hrzt2").hide('slow');
+			$(".submission-hrzt3").hide('slow');
+			$(".submission-hrzt4").hide('slow');
+			$(".n510-hrzt").hide('slow');
+			$(".n510-vrtcl").hide('slow');
+			$(".n510-hrzt2").hide('slow');
+			$(".n510-vrtcl2").hide('slow');
+			$(".n510-vrtcl3").hide('slow');
+			$(".n510-vrtcl4").hide('slow');
+			$(".n510-hrzt3").hide('slow');
+			$("#device_standards_block").hide('slow');
+			$("#test_standards_block").hide('slow');
+			$("#material_standards_block").hide('slow');
+			$("#procedure_standards_block").hide('slow');
+			$("#organizations_block").hide('slow');
+			$("#schematics_block").hide('slow');
+			$("#laboratory_block").hide('slow');
+			$("#result_block").hide('slow');
+			$("#org_box_block").hide('slow');
+			$("#schem_box_block").hide('slow');
+			$("#test_box_block").hide('slow');
+			$("#material_box_block").hide('slow');
+			$(".standards-hrzt").hide('slow');
+			$(".standards-vrtcl").hide('slow');
+			$(".standards-vrtcl2").hide('slow');
+			$(".standards-vrtcl3").hide('slow');
+			$(".standards-vrtcl4").hide('slow');
+			$(".standards-vrtcl5").hide('slow');
+			$(".standards-vrtcl6").hide('slow');
+			$(".standards-vrtcl7").hide('slow');
+			$(".standards-hrzt2").hide('slow');
+			$("#utility_patents_block").hide('slow');
+			$("#design_patents_block").hide('slow');
+			$("#patent_qualifications_block").hide('slow');
+			$("#usefulness_block").hide('slow');
+			$("#novelty_block").hide('slow');
+			$("#no_block").hide('slow');
+			$("#improvement_block").hide('slow');
+			$("#design_block").hide('slow');
+			$("#patentable_block").hide('slow');
+			$("#patents_block").hide('slow');
+			$("#process_method_block").hide('slow');
+			$("#machine_block").hide('slow');
+			$("#composition_block").hide('slow');
+			$("#article_block").hide('slow');
+			$("#article_block").hide('slow');
+			$(".upsto-vrtcl").hide('slow');
+			$(".upsto-vrtcl2").hide('slow');
+			$(".patent-hrzt").hide('slow');
+			$(".patent-vrtcl").hide('slow');
+			$(".patent-vrtcl2").hide('slow');
+			$(".patent-vrtcl3").hide('slow');
+			$(".patent-vrtcl4").hide('slow');
+			$(".patent-vrtcl5").hide('slow');
+			$(".patent-vrtcl6").hide('slow');
+			$(".upsto-hrzt").hide('slow');
+			$(".patentable-hrzt").hide('slow');
+			$(".patentable-vrtcl").hide('slow');
+			$(".patentable-hrzt2").hide('slow');
+			$(".patentable-hrzt3").hide('slow');
+			$(".patentable-hrzt4").hide('slow');
+			$(".patentable-hrzt5").hide('slow');
+			$(".design-control-hrzt").hide('slow');
+			$(".design-control-vrtcl").hide('slow');
+																				$("#design_controls_block").hide('slow');
+
+
 
 
 			clickCounter7=0;
@@ -444,7 +651,7 @@ function expand(div_block_id){
 		}else{
 			//Expand to desired css
 			$(this).animate({
-					width: "100%",
+					width: "1400px",
 			        opacity: 60,
 			        marginLeft: "0.5in",
 				    borderWidth: "5px"},500);
@@ -462,7 +669,6 @@ function expand(div_block_id){
       				$('.medical-device-vrtcl3').show('slow').delay(28).animate({'height':'21px'},1000);
       				$('.medical-device-vrtcl4').show('slow').delay(28).animate({'height':'21px'},1000);
       				$('.medical-device-vrtcl5').show('slow').delay(28).animate({'height':'21px'},1000);
-      				$("#medical_device_records_block").show('slow').delay(28).animate({'height':'21px'},1000);
       				$("#medical_device_records_block").show('slow').delay(28).animate({'height':'21px'},1000);
       				$("#design_history_file_block").show('slow').delay(28).animate({'height':'21px'},1000);
       				$("#device_master_record_block").show('slow').delay(28).animate({'height':'21px'},1000);
@@ -721,6 +927,10 @@ function expand(div_block_id){
 				$(".post-launch-vrtcl11").hide('slow');
 				$(".post-launch-vrtcl12").hide('slow');
 				$(".post-launch-vrtcl13").hide('slow');
+				$(".design-control-hrzt").hide('slow');
+								$(".design-control-vrtcl").hide('slow');
+																												$("#design_controls_block").hide('slow');
+
 				clickCounter6=0;
 				clickCounter7=0;
 				clickCounter8=0;
@@ -736,7 +946,6 @@ function expand(div_block_id){
 				clickCounter18=0;
 				clickCounter19=0;
 				clickCounter20=0;
-
 			}
 
 			});
@@ -864,6 +1073,13 @@ function expand(div_block_id){
 				$("#design_validation_block").show('slow');
 				$("#dfx_methods_block").show('slow');
 				
+								$(".design-control-hrzt").show('slow').animate({'width': '150px'});
+								$(".design-control-vrtcl").show('slow').animate({'height': '220px'});
+				$("#design_controls_block").show('slow');
+
+
+
+				
 
 
 				
@@ -933,6 +1149,10 @@ function expand(div_block_id){
 				$(".design-outputs-hrzt2").hide('slow');
 				$(".design-outputs-hrzt3").hide('slow');
 				$(".design-outputs-hrzt").hide('slow');
+				$(".design-control-hrzt").hide('slow');
+								$(".design-control-vrtcl").hide('slow');
+																				$("#design_controls_block").hide('slow');
+
 				
 
 				clickCounter12=0;
@@ -1318,27 +1538,588 @@ function expand(div_block_id){
 			if(++clickCounter20 % 2 == 1) {
 				$("#cdrh_block").show('slow');
 				$("#clasification_generic_block").show('slow');
+				$(".fda-hrzt").show('slow').animate({'width' : '300px'});
 			}
 			else {
 				$("#cdrh_block").hide('slow');
 				$("#clasification_generic_block").hide('slow');
+				$("#medical_specialties_block").hide('slow');
+				$("#medical_specialties_box_block").hide('slow');
+				$("#regulatory_classes_block").hide('slow');
+				$("#submission_types_block").hide('slow');
+				$("#general_controls_block").hide('slow');
+				$("#gmp_block").hide('slow');
+				$("#classI_block").hide('slow');
+				$("#classII_block").hide('slow');
+				$("#classIII_block").hide('slow');
+				$("#intended_use_block").hide('slow');
+				$("#indication_use_block").hide('slow');
+				$("#risk_based_block").hide('slow');
+				$("#gmpqs_block").hide('slow');
+				$("#reserved_device_block").hide('slow');
+				$("#n510k_block").hide('slow');
+				$("#limitations_device_block").hide('slow');
+				$("#classIII_devices_block").hide('slow');
+				$("#special_controls_block").hide('slow');
+				$("#special_controls_box_block").hide('slow');
+				$("#hde_block").hide('slow');
+				$("#pma_block").hide('slow');
+				$("#n510_block").hide('slow');
+				$("#traditional_pma_block").hide('slow');
+				$("#modular_pma_block").hide('slow');
+				$("#streamlined_pma_block").hide('slow');
+				$("#traditional510_block").hide('slow');
+				$("#abbreviated510_block").hide('slow');
+				$("#special510_block").hide('slow');
+				$("#substancial_equivalence_block").hide('slow');
+				$("#general_controls_box_block").hide('slow');
+				$(".generic-vrtcl").hide('slow');
+				$(".generic-hrzt").hide('slow');
+				$(".generic-vrtcl2").hide('slow');
+				$(".generic-hrzt2").hide('slow');
+				$(".generic-vrtcl3").hide('slow');
+				$(".generic-vrtcl4").hide('slow');
+				$(".generic-vrtcl5").hide('slow');
+				$(".generic-vrtcl6").hide('slow');
+				$(".fda-hrzt").hide('slow');
+				$(".regulatory-hrzt").hide('slow');
+				$(".regulatory-vrtcl").hide('slow');
+				$(".regulatory-hrzt2").hide('slow');
+				$(".regulatory-hrzt3").hide('slow');
+				$(".regulatory-hrzt4").hide('slow');
+				$(".classes-hrzt").hide('slow');
+				$(".classes-vrtcl").hide('slow');
+				$(".classes-hrzt2").hide('slow');
+				$(".classes-hrzt3").hide('slow');
+				$(".classes-hrzt4").hide('slow');
+				$(".classI-hrzt").hide('slow');
+				$(".classI-vrtcl").hide('slow');
+				$(".classI-hrzt2").hide('slow');
+				$(".classI-hrzt3").hide('slow');
+				$(".classII-hrzt").hide('slow');
+				$(".classIII-hrzt").hide('slow');
+				$(".submission-hrzt").hide('slow');
+				$(".submission-vrtcl").hide('slow');
+				$(".submission-hrzt2").hide('slow');
+				$(".submission-hrzt3").hide('slow');
+				$(".submission-hrzt4").hide('slow');
+				$(".n510-hrzt").hide('slow');
+				$(".n510-vrtcl").hide('slow');
+				$(".n510-hrzt2").hide('slow');
+				$(".n510-vrtcl2").hide('slow');
+				$(".n510-vrtcl3").hide('slow');
+				$(".n510-vrtcl4").hide('slow');
+				$(".n510-hrzt3").hide('slow');
+
+				clickCounter23=0;
+				clickCounter22=0;
+				clickCounter21=0;
+				clickCounter24=0;
+				
+			}
+			});
+			
+			$("#clasification_generic_block").click(function() {
+			if(++clickCounter21 % 2 == 1){
+				$("#medical_specialties_block").show('slow');
+				$("#medical_specialties_box_block").show('slow');
+				$("#regulatory_classes_block").show('slow');
+				$("#submission_types_block").show('slow');
+				$("#general_controls_block").show('slow');
+				$("#gmp_block").show('slow');
+				$(".generic-vrtcl").show('slow').animate({'height': '50px'});
+				$(".generic-hrzt").show('slow').animate({'width': '75px'});
+				$(".generic-vrtcl2").show('slow').animate({'height': '20px'});
+				$(".generic-hrzt2").show('slow').animate({'width': '540px'});
+				$(".generic-vrtcl3").show('slow').animate({'height': '20px'});
+				$(".generic-vrtcl4").show('slow').animate({'height': '20px'});
+				$(".generic-vrtcl5").show('slow').animate({'height': '20px'});
+				$(".generic-vrtcl6").show('slow').animate({'height': '20px'});
+
+
+
+				clickCounter22=0;
+				clickCounter23=0;
+				clickCounter24=0;
+
+
+				
+			}
+			else {
+				$("#medical_specialties_block").hide('slow');
+				$("#medical_specialties_box_block").hide('slow');
+				$("#regulatory_classes_block").hide('slow');
+				$("#submission_types_block").hide('slow');
+				$("#general_controls_block").hide('slow');
+				$("#gmp_block").hide('slow');
+				$("#classI_block").hide('slow');
+				$("#classII_block").hide('slow');
+				$("#classIII_block").hide('slow');
+				$("#intended_use_block").hide('slow');
+				$("#indication_use_block").hide('slow');
+				$("#risk_based_block").hide('slow');
+				$("#gmpqs_block").hide('slow');
+				$("#reserved_device_block").hide('slow');
+				$("#n510k_block").hide('slow');
+				$("#limitations_device_block").hide('slow');
+				$("#classIII_devices_block").hide('slow');
+				$("#special_controls_block").hide('slow');
+				$("#special_controls_box_block").hide('slow');
+				$("#hde_block").hide('slow');
+				$("#pma_block").hide('slow');
+				$("#n510_block").hide('slow');
+				$("#traditional_pma_block").hide('slow');
+				$("#modular_pma_block").hide('slow');
+				$("#streamlined_pma_block").hide('slow');
+				$("#traditional510_block").hide('slow');
+				$("#abbreviated510_block").hide('slow');
+				$("#special510_block").hide('slow');
+				$("#substancial_equivalence_block").hide('slow');
+				$("#general_controls_box_block").hide('slow');
+				$(".generic-vrtcl").hide('slow');
+				$(".generic-hrzt").hide('slow');
+				$(".generic-vrtcl2").hide('slow');
+				$(".generic-hrzt2").hide('slow');
+				$(".generic-vrtcl3").hide('slow');
+				$(".generic-vrtcl4").hide('slow');
+				$(".generic-vrtcl5").hide('slow');
+				$(".generic-vrtcl6").hide('slow');
+				$(".regulatory-hrzt").hide('slow');
+				$(".regulatory-vrtcl").hide('slow');
+				$(".regulatory-hrzt2").hide('slow');
+				$(".regulatory-hrzt3").hide('slow');
+				$(".regulatory-hrzt4").hide('slow');
+				$(".classes-hrzt").hide('slow');
+				$(".classes-vrtcl").hide('slow');
+				$(".classes-hrzt2").hide('slow');
+				$(".classes-hrzt3").hide('slow');
+				$(".classes-hrzt4").hide('slow');
+				$(".classI-hrzt").hide('slow');
+				$(".classI-vrtcl").hide('slow');
+				$(".classI-hrzt2").hide('slow');
+				$(".classI-hrzt3").hide('slow');
+				$(".classII-hrzt").hide('slow');
+				$(".classIII-hrzt").hide('slow');
+				$(".submission-hrzt").hide('slow');
+				$(".submission-vrtcl").hide('slow');
+				$(".submission-hrzt2").hide('slow');
+				$(".submission-hrzt3").hide('slow');
+				$(".submission-hrzt4").hide('slow');
+				$(".n510-hrzt").hide('slow');
+				$(".n510-vrtcl").hide('slow');
+				$(".n510-hrzt2").hide('slow');
+				$(".n510-vrtcl2").hide('slow');
+				$(".n510-vrtcl3").hide('slow');
+				$(".n510-vrtcl4").hide('slow');
+				$(".n510-hrzt3").hide('slow');
+
+			}
+			});
+			
+			$("#regulatory_classes_block").click(function() {
+			if(++clickCounter22 % 2 == 1) {
+				$("#classI_block").show('slow');
+				$("#classII_block").show('slow');
+				$("#classIII_block").show('slow');
+				$("#intended_use_block").show('slow');
+				$("#indication_use_block").show('slow');
+				$("#risk_based_block").show('slow');
+				$("#gmpqs_block").show('slow');
+				$("#reserved_device_block").show('slow');
+				$("#n510k_block").show('slow');
+				$("#limitations_device_block").show('slow');
+				$("#classIII_devices_block").show('slow');
+				$("#special_controls_block").show('slow');
+				$("#special_controls_box_block").show('slow');
+				$(".regulatory-hrzt").show('slow').animate({'width' : '30px'});
+				$(".regulatory-vrtcl").show('slow').animate({'height' : '157px'});
+				$(".regulatory-hrzt2").show('slow').animate({'width' : '30px'});
+				$(".regulatory-hrzt3").show('slow').animate({'width' : '30px'});
+				$(".regulatory-hrzt4").show('slow').animate({'width' : '30px'});
+				$(".classes-hrzt").show('slow').animate({'width': '60px'});
+				$(".classes-vrtcl").show('slow').animate({'height': '22px'});
+				$(".classes-hrzt2").show('slow').animate({'width': '45px'});
+				$(".classes-hrzt3").show('slow').animate({'width': '45px'});
+				$(".classes-hrzt4").show('slow').animate({'width': '45px'});
+				$(".classI-hrzt").show('slow').animate({'width' : '100px'});
+				$(".classI-vrtcl").show('slow').animate({'height' : '20px'});
+				$(".classI-hrzt2").show('slow').animate({'width' : '25px'});
+				$(".classI-hrzt3").show('slow').animate({'width' : '200px'});
+				$(".classII-hrzt").show('slow').animate({'width' : '100px'});
+				$(".classIII-hrzt").show('slow').animate({'width' : '100px'});
+
+
+
+
+
+
+
+
+				
+
+
+
+				// hrzt 2 3 4 vrtcl
+
+				
+			}
+			else {
+				$("#classI_block").hide('slow');
+				$("#classII_block").hide('slow');
+				$("#classIII_block").hide('slow');
+				$("#intended_use_block").hide('slow');
+				$("#indication_use_block").hide('slow');
+				$("#risk_based_block").hide('slow');
+				$("#gmpqs_block").hide('slow');
+				$("#reserved_device_block").hide('slow');
+				$("#n510k_block").hide('slow');
+				$("#limitations_device_block").hide('slow');
+				$("#classIII_devices_block").hide('slow');
+				$("#special_controls_block").hide('slow');
+				$("#special_controls_box_block").hide('slow');
+				$(".regulatory-hrzt").hide('slow');
+				$(".regulatory-vrtcl").hide('slow');
+				$(".regulatory-hrzt2").hide('slow');
+				$(".regulatory-hrzt3").hide('slow');
+				$(".regulatory-hrzt4").hide('slow');
+				$(".classes-hrzt").hide('slow');
+				$(".classes-vrtcl").hide('slow');
+				$(".classes-hrzt2").hide('slow');
+				$(".classes-hrzt3").hide('slow');
+				$(".classes-hrzt4").hide('slow');
+				$(".classI-hrzt").hide('slow');
+				$(".classI-vrtcl").hide('slow');
+				$(".classI-hrzt2").hide('slow');
+				$(".classI-hrzt3").hide('slow');
+				$(".classII-hrzt").hide('slow');
+				$(".classIII-hrzt").hide('slow');
+			}
+			});
+			
+		
+		
+			$("#submission_types_block").click(function() {
+			if(++clickCounter23 % 2 == 1){
+				$("#hde_block").show('slow');
+				$("#pma_block").show('slow');
+				$("#n510_block").show('slow');
+				$("#traditional_pma_block").show('slow');
+				$("#modular_pma_block").show('slow');
+				$("#streamlined_pma_block").show('slow');
+				$("#traditional510_block").show('slow');
+				$("#abbreviated510_block").show('slow');
+				$("#special510_block").show('slow');
+				$("#substancial_equivalence_block").show('slow');
+				$(".submission-hrzt").show('slow').animate({'width': '20px'});
+				$(".submission-vrtcl").show('slow').animate({'height': '85px'});
+				$(".submission-hrzt2").show('slow').animate({'width': '20px'});
+				$(".submission-hrzt3").show('slow').animate({'width': '100px'});
+				$(".submission-hrzt4").show('slow').animate({'width': '20px'});
+				$(".n510-hrzt").show('slow').animate({'width': '15px'});
+				$(".n510-vrtcl").show('slow').animate({'height': '60px'});
+				$(".n510-hrzt2").show('slow').animate({'width': '165px'});
+				$(".n510-vrtcl2").show('slow').animate({'height': '15px'});
+				$(".n510-vrtcl3").show('slow').animate({'height': '15px'});
+				$(".n510-vrtcl4").show('slow').animate({'height': '15px'});
+				$(".n510-hrzt3").show('slow').animate({'width': '40px'});
+
+
+
+				//////////////////////////////////////////////////////////AQUI
+
+				
+				//las lineas de 510
+
+				
+			}
+			else {
+				$("#hde_block").hide('slow');
+				$("#pma_block").hide('slow');
+				$("#n510_block").hide('slow');
+				$("#traditional_pma_block").hide('slow');
+				$("#modular_pma_block").hide('slow');
+				$("#streamlined_pma_block").hide('slow');
+				$("#traditional510_block").hide('slow');
+				$("#abbreviated510_block").hide('slow');
+				$("#special510_block").hide('slow');
+				$("#substancial_equivalence_block").hide('slow');
+				
+				$(".submission-hrzt").hide('slow');
+				$(".submission-vrtcl").hide('slow');
+				$(".submission-hrzt2").hide('slow');
+				$(".submission-hrzt3").hide('slow');
+				$(".submission-hrzt4").hide('slow');
+				$(".n510-hrzt").hide('slow');
+				$(".n510-vrtcl").hide('slow');
+				$(".n510-hrzt2").hide('slow');
+				$(".n510-vrtcl2").hide('slow');
+				$(".n510-vrtcl3").hide('slow');
+				$(".n510-vrtcl4").hide('slow');
+				$(".n510-hrzt3").hide('slow');
+
+				
+			}
+			});
+			
+			$("#general_controls_block").click(function() {
+			if(++clickCounter24 % 2 == 1) {
+				$("#general_controls_box_block").show('slow');
+			}
+			
+			else {
+				$("#general_controls_box_block").hide('slow');
+
 			}
 			});
 			
 			
 	     $("#standards_div_block").click(function() {
-			if(++clickCounter4 % 2 == 1) $('.horizontal-bar7').animate({'width':'112px'},500);
-			else $('.horizontal-bar7').animate({'width':'-112px'},500);	
+			if(++clickCounter25 % 2 == 1) {
+				$("#device_standards_block").show('slow');
+				$("#test_standards_block").show('slow');
+				$("#material_standards_block").show('slow');
+				$("#procedure_standards_block").show('slow');
+				$("#organizations_block").show('slow');
+
+				$("#org_box_block").show('slow');
+				$(".standards-hrzt").show('slow').animate({'width': '600px'});
+				$(".standards-vrtcl").show('slow').animate({'height': '15px'});
+				$(".standards-vrtcl2").show('slow').animate({'height': '15px'});
+				$(".standards-vrtcl3").show('slow').animate({'height': '15px'});
+				$(".standards-vrtcl4").show('slow').animate({'height': '15px'});
+				$(".standards-vrtcl5").show('slow').animate({'height': '30px'});
+
+
+
+
+
+			}
+			
+			else {
+				$("#device_standards_block").hide('slow');
+				$("#test_standards_block").hide('slow');
+				$("#material_standards_block").hide('slow');
+				$("#procedure_standards_block").hide('slow');
+				$("#organizations_block").hide('slow');
+				
+				$("#result_block").hide('slow');
+				$("#org_box_block").hide('slow');
+				$("#test_box_block").hide('slow');
+				$("#material_box_block").hide('slow');
+				$("#schem_box_block").hide('slow');
+				$("#schematics_block").hide('slow');
+				$("#laboratory_block").hide('slow');
+				
+				$(".standards-hrzt").hide('slow');
+				$(".standards-vrtcl").hide('slow');
+				$(".standards-vrtcl2").hide('slow');
+				$(".standards-vrtcl3").hide('slow');
+				$(".standards-vrtcl4").hide('slow');
+				$(".standards-vrtcl5").hide('slow');
+				$(".standards-vrtcl6").hide('slow');
+				$(".standards-vrtcl7").hide('slow');
+				$(".standards-hrzt2").hide('slow');
+				clickCounter26=0;
+				clickCounter27=0;
+				clickCounter28=0;
+			}	
 			});
-		$("#upsto_block").click(function(){
-			if(++clickCounter5 % 2 == 1) $('.horizontal-bar8').animate({'width':'112px'},500);
-			else $('.horizontal-bar8').animate({'width':'-112px'},500);	
+			
+			$("#device_standards_block").click(function(){
+			if(++clickCounter26 % 2 == 1){
+				$("#schematics_block").show('slow');
+				$("#laboratory_block").show('slow');
+				$("#schem_box_block").show('slow');
+				$(".standards-hrzt2").show('slow').animate({'width': '120px'});
+				$(".standards-vrtcl6").show('slow').animate({'height': '30px'});
+
+
+			}
+			else {
+				$("#schem_box_block").hide('slow');
+				$("#schematics_block").hide('slow');
+				$("#laboratory_block").hide('slow');
+				$(".standards-hrzt2").hide('slow');
+				$(".standards-vrtcl6").hide('slow');
+
+			}
 		});
 		
-		$("#product_definition_process_block").click(function(){
-			if(++clickCounter5 % 2 == 1) $('.horizontal-bar8').animate({'width':'112px'},500);
-			else $('.horizontal-bar8').animate({'width':'-112px'},500);	
+		$("#test_standards_block").click(function(){
+			if(++clickCounter27 % 2 == 1) {
+				$("#test_box_block").show('slow');
+				$("#result_block").show('slow');
+				$(".standards-vrtcl7").show('slow').animate({'height': '30px'});
+
+			}
+			else {
+				$("#test_box_block").hide('slow');
+				$("#result_block").hide('slow');
+				$(".standards-vrtcl7").hide('slow');
+
+
+
+			}
 		});
+		
+		$("#material_standards_block").click(function(){
+			if(++clickCounter28 % 2 == 1){
+				$("#material_box_block").show('slow');
+
+			}
+			else {
+				$("#material_box_block").hide('slow');
+
+			}
+		});
+		
+		
+		$("#upsto_block").click(function(){
+			if(++clickCounter29 % 2 == 1) {
+				$("#patents_block").show('slow');
+				$(".upsto-hrzt").show('slow').animate({'width': '70px'});
+				
+
+			}
+			else{
+				$("#utility_patents_block").hide('slow');
+				$("#design_patents_block").hide('slow');
+				$("#patent_qualifications_block").hide('slow');
+				$("#usefulness_block").hide('slow');
+				$("#novelty_block").hide('slow');
+				$("#no_block").hide('slow');
+				$("#improvement_block").hide('slow');
+				$("#design_block").hide('slow');
+				$("#patentable_block").hide('slow');
+				$("#patents_block").hide('slow');
+				$("#process_method_block").hide('slow');
+				$("#machine_block").hide('slow');
+				$("#composition_block").hide('slow');
+				$("#article_block").hide('slow');
+				$("#article_block").hide('slow');
+				$(".upsto-vrtcl").hide('slow');
+				$(".upsto-vrtcl2").hide('slow');
+				$(".patent-hrzt").hide('slow');
+				$(".patent-vrtcl").hide('slow');
+				$(".patent-vrtcl2").hide('slow');
+				$(".patent-vrtcl3").hide('slow');
+				$(".patent-vrtcl4").hide('slow');
+				$(".patent-vrtcl5").hide('slow');
+				$(".patent-vrtcl6").hide('slow');
+				$(".upsto-hrzt").hide('slow');
+				$(".patentable-hrzt").hide('slow');
+				$(".patentable-vrtcl").hide('slow');
+				$(".patentable-hrzt2").hide('slow');
+				$(".patentable-hrzt3").hide('slow');
+				$(".patentable-hrzt4").hide('slow');
+				$(".patentable-hrzt5").hide('slow');
+
+
+				clickCounter30=0;
+				clickCounter31=0;
+				
+			}
+		});
+		 
+		 	$("#patents_block").click(function(){
+			if(++clickCounter30 % 2 == 1) {
+				$("#utility_patents_block").show('slow');
+				$("#design_patents_block").show('slow');
+				
+				$("#patent_qualifications_block").show('slow');
+				$("#usefulness_block").show('slow');
+				$("#novelty_block").show('slow');
+				$("#no_block").show('slow');
+				$("#improvement_block").show('slow');
+				$("#design_block").show('slow');
+				$("#patentable_block").show('slow');
+				$(".upsto-vrtcl").show('slow').animate({'height': '10px'});
+				$(".upsto-vrtcl2").show('slow').animate({'height': '10px'});
+				$(".patent-hrzt").show('slow').animate({'width': '510px'});
+				$(".patent-vrtcl").show('slow').animate({'height': '10px'});
+				$(".patent-vrtcl2").show('slow').animate({'height': '10px'});
+				$(".patent-vrtcl3").show('slow').animate({'height': '10px'});
+				$(".patent-vrtcl4").show('slow').animate({'height': '10px'});
+				$(".patent-vrtcl5").show('slow').animate({'height': '10px'});
+				$(".patent-vrtcl6").show('slow').animate({'height': '10px'});
+
+
+
+
+
+
+			}
+			else{
+				$("#utility_patents_block").hide('slow');
+				$("#design_patents_block").hide('slow');
+				$("#patent_qualifications_block").hide('slow');
+				$("#usefulness_block").hide('slow');
+				$("#novelty_block").hide('slow');
+				$("#no_block").hide('slow');
+				$("#improvement_block").hide('slow');
+				$("#design_block").hide('slow');
+				$("#patentable_block").hide('slow');
+				$("#process_method_block").hide('slow');
+				$("#machine_block").hide('slow');
+				$("#composition_block").hide('slow');
+				$("#article_block").hide('slow');
+				$(".upsto-vrtcl").hide('slow');
+				$(".upsto-vrtcl2").hide('slow');
+				$(".patent-hrzt").hide('slow');
+				$(".patent-vrtcl").hide('slow');
+				$(".patent-vrtcl2").hide('slow');
+				$(".patent-vrtcl3").hide('slow');
+				$(".patent-vrtcl4").hide('slow');
+				$(".patent-vrtcl5").hide('slow');
+				$(".patent-vrtcl6").hide('slow');
+				$(".patentable-hrzt").hide('slow');
+				$(".patentable-vrtcl").hide('slow');
+				$(".patentable-hrzt2").hide('slow');
+				$(".patentable-hrzt3").hide('slow');
+				$(".patentable-hrzt4").hide('slow');
+				$(".patentable-hrzt5").hide('slow');
+				clickCounter31=0;
+				
+			}
+		});
+		
+		$("#patentable_block").click(function(){
+			if(++clickCounter31 % 2 == 1) {
+				
+				$("#process_method_block").show('slow');
+				$("#machine_block").show('slow');
+				$("#composition_block").show('slow');
+				$("#article_block").show('slow');
+				$(".patentable-hrzt").show('slow').animate({'width': '70px'});
+				$(".patentable-vrtcl").show('slow').animate({'height': '47px'});
+				$(".patentable-hrzt2").show('slow').animate({'width': '70px'});
+				$(".patentable-hrzt3").show('slow').animate({'width': '70px'});
+				$(".patentable-hrzt4").show('slow').animate({'width': '70px'});
+				$(".patentable-hrzt5").show('slow').animate({'width': '70px'});
+
+
+
+
+
+			}
+			else{
+				$("#process_method_block").hide('slow');
+				$("#machine_block").hide('slow');
+				$("#composition_block").hide('slow');
+				$("#article_block").hide('slow');
+				$(".patentable-hrzt").hide('slow');
+				$(".patentable-vrtcl").hide('slow');
+				$(".patentable-hrzt2").hide('slow');
+				$(".patentable-hrzt3").hide('slow');
+				$(".patentable-hrzt4").hide('slow');
+				$(".patentable-hrzt5").hide('slow');
+				
+			}
+		});
+		// $("#product_definition_process_block").click(function(){
+			// if(++clickCounter5 % 2 == 1) $('.horizontal-bar8').animate({'width':'112px'},500);
+			// else $('.horizontal-bar8').animate({'width':'-112px'},500);	
+		// });
 					
 					
 					
